@@ -1,0 +1,17 @@
+C:\Project\Vedanta\Vedanta\bin\Vedanta.dll
+C:\Project\Vedanta\Vedanta\bin\Vedanta.pdb
+C:\Project\Vedanta\Vedanta\bin\System.Web.Abstractions.dll
+C:\Project\Vedanta\Vedanta\bin\System.Web.Mvc.dll
+C:\Project\Vedanta\Vedanta\bin\System.Web.Routing.dll
+C:\Project\Vedanta\Vedanta\bin\System.Web.Mvc.xml
+C:\Project\Vedanta\Vedanta\obj\Debug\ResolveAssemblyReference.cache
+C:\Project\Vedanta\Vedanta\obj\Debug\Vedanta.dll
+C:\Project\Vedanta\Vedanta\obj\Debug\Vedanta.pdb
+D:\Applications\Vedanta\Vedanta\bin\Vedanta.dll
+D:\Applications\Vedanta\Vedanta\bin\Vedanta.pdb
+D:\Applications\Vedanta\Vedanta\bin\System.Web.Abstractions.dll
+D:\Applications\Vedanta\Vedanta\bin\System.Web.Mvc.dll
+D:\Applications\Vedanta\Vedanta\bin\System.Web.Routing.dll
+D:\Applications\Vedanta\Vedanta\bin\System.Web.Mvc.xml
+D:\Applications\Vedanta\Vedanta\obj\Debug\Vedanta.dll
+D:\Applications\Vedanta\Vedanta\obj\Debug\Vedanta.pdb

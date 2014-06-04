@@ -1,0 +1,88 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Log.master.cs" Inherits="Vedanta.Views.Shared.Log" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="TitleContent" runat="server" />
+    </title>
+    <link href="../../Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="../../Content/Vedanta.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="page">
+        <div id="header" class="noprint">
+            <div id="title">
+                <%--  <%if (Session["UserDetail"] != null)
+                  {
+                      Vedanta.Models.vw_Users_Lists currentUser = Session["UserDetail"] as Vedanta.Models.vw_Users_Lists;
+                    
+                %>
+                <% Html.RenderPartial("ClientDetailUserControl", currentUser); %>
+                <%} %>--%>
+            </div>
+            <div id="logindisplay">
+                <%--  <% Html.RenderPartial("LogOnUserControl"); %>--%>
+            </div>
+            <div id="menucontainer">
+                <%-- <ul id="menu">
+                    <%if (Request.IsAuthenticated)
+                      { %>
+                    <%if (Roles.IsUserInRole("SuperAdmin"))
+                      { %>
+                    <li>
+                        <%: Html.ActionLink("Clients", "List", "Client")%></li>
+                    <%} %>
+                    <%if (Roles.IsUserInRole("Admin"))
+                      { %>
+                    <li>
+                        <%: Html.ActionLink("Home", "Details", "Client", new { @id = Session["ClientID"] }, null)%></li>
+                    <%}
+                      if (Roles.IsUserInRole("CenterManager"))
+                      { %>
+                    <li>
+                        <%: Html.ActionLink("Home", "Details", "Branch")%></li>
+                    <%}
+                      else
+                      { %>
+                    <li>
+                        <%: Html.ActionLink("Branches", "BranchList", "Branch")%></li>
+                    <%} %>
+                    <li>
+                        <%: Html.ActionLink("Courses", "List", "Courses")%></li>
+                    <li>
+                        <%: Html.ActionLink("Employees", "List", "Employee")%></li>
+                    <li>
+                        <%: Html.ActionLink("Students", "List", "Students")%></li>
+                    <li>
+                        <%: Html.ActionLink("Reports", "Index", "Report")%></li>
+                    <%if (Roles.IsUserInRole("SuperAdmin"))
+                      { %>
+                    <li>
+                        <%: Html.ActionLink("Users", "Users", "Account")%></li>
+                    <%}
+                      }
+                      else
+                      { %>
+                    <li>
+                        <%: Html.ActionLink("Home", "Index", "Home")%></li>
+                    <%} %>
+                </ul>--%>
+            </div>
+        </div>
+        <div id="main" style="min-height: 400px; height: auto; padding-top: 50px; margin-top: 50px;">
+            <div id="PageHolder">
+                <div id="MainPage">
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+                </div>
+            </div>
+            <div id="footer">
+                All Rights Reserved.
+                <%--Scanservices--%>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

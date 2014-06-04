@@ -1,0 +1,3145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VedantaModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="VedantaModelStoreContainer">
+    <EntitySet Name="Admissions" EntityType="VedantaModel.Store.Admissions" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="aspnet_Applications" EntityType="VedantaModel.Store.aspnet_Applications" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="aspnet_Membership" EntityType="VedantaModel.Store.aspnet_Membership" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="aspnet_Paths" EntityType="VedantaModel.Store.aspnet_Paths" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="aspnet_PersonalizationAllUsers" EntityType="VedantaModel.Store.aspnet_PersonalizationAllUsers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="aspnet_PersonalizationPerUser" EntityType="VedantaModel.Store.aspnet_PersonalizationPerUser" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="aspnet_Profile" EntityType="VedantaModel.Store.aspnet_Profile" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="aspnet_Roles" EntityType="VedantaModel.Store.aspnet_Roles" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="aspnet_SchemaVersions" EntityType="VedantaModel.Store.aspnet_SchemaVersions" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="aspnet_Users" EntityType="VedantaModel.Store.aspnet_Users" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="aspnet_UsersInRoles" EntityType="VedantaModel.Store.aspnet_UsersInRoles" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="aspnet_WebEvent_Events" EntityType="VedantaModel.Store.aspnet_WebEvent_Events" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Assets" EntityType="VedantaModel.Store.Assets" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="associated_Users" EntityType="VedantaModel.Store.associated_Users" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Associates" EntityType="VedantaModel.Store.Associates" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Batches" EntityType="VedantaModel.Store.Batches" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Branches" EntityType="VedantaModel.Store.Branches" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="BranchSettings" EntityType="VedantaModel.Store.BranchSettings" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="BranchTypes" EntityType="VedantaModel.Store.BranchTypes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="BulkSMS" EntityType="VedantaModel.Store.BulkSMS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="BusinessTypes" EntityType="VedantaModel.Store.BusinessTypes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ClientRepresentatives" EntityType="VedantaModel.Store.ClientRepresentatives" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Clients" EntityType="VedantaModel.Store.Clients" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ClientSettings" EntityType="VedantaModel.Store.ClientSettings" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ComputerInterests" EntityType="VedantaModel.Store.ComputerInterests" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ComputerKnowledgeLevels" EntityType="VedantaModel.Store.ComputerKnowledgeLevels" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Countries" EntityType="VedantaModel.Store.Countries" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CourseBrands" EntityType="VedantaModel.Store.CourseBrands" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CourseMaterials" EntityType="VedantaModel.Store.CourseMaterials" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Courses" EntityType="VedantaModel.Store.Courses" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CreditorBills" EntityType="VedantaModel.Store.CreditorBills" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Creditors" EntityType="VedantaModel.Store.Creditors" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DebtorBills" EntityType="VedantaModel.Store.DebtorBills" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Debtors" EntityType="VedantaModel.Store.Debtors" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="EmployeePermanentContacts" EntityType="VedantaModel.Store.EmployeePermanentContacts" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="EmployeePresentContacts" EntityType="VedantaModel.Store.EmployeePresentContacts" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="EmployeeRanks" EntityType="VedantaModel.Store.EmployeeRanks" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Employees" EntityType="VedantaModel.Store.Employees" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Enquiries" EntityType="VedantaModel.Store.Enquiries" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="EnquiryFollowUps" EntityType="VedantaModel.Store.EnquiryFollowUps" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="EXPENSESHEAD" EntityType="VedantaModel.Store.EXPENSESHEAD" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FamilyIncomeSlots" EntityType="VedantaModel.Store.FamilyIncomeSlots" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FeeCollections" EntityType="VedantaModel.Store.FeeCollections" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Genders" EntityType="VedantaModel.Store.Genders" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="HowToKnowAboutUs" EntityType="VedantaModel.Store.HowToKnowAboutUs" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InstallmentStructures" EntityType="VedantaModel.Store.InstallmentStructures" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="LedgerTypes" EntityType="VedantaModel.Store.LedgerTypes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MaritalStatus" EntityType="VedantaModel.Store.MaritalStatus" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Nationality" EntityType="VedantaModel.Store.Nationality" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Occupations" EntityType="VedantaModel.Store.Occupations" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PaymentHeads" EntityType="VedantaModel.Store.PaymentHeads" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PaymentModes" EntityType="VedantaModel.Store.PaymentModes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Payments" EntityType="VedantaModel.Store.Payments" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Qualifications" EntityType="VedantaModel.Store.Qualifications" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="RegionalOffices" EntityType="VedantaModel.Store.RegionalOffices" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Religions" EntityType="VedantaModel.Store.Religions" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SMSNotices" EntityType="VedantaModel.Store.SMSNotices" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="States" EntityType="VedantaModel.Store.States" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Students" EntityType="VedantaModel.Store.Students" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ZonalOfices" EntityType="VedantaModel.Store.ZonalOfices" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Vw_AccountSummaryBranchWise" EntityType="VedantaModel.Store.Vw_AccountSummaryBranchWise" store:Type="Views" store:Schema="dbo" store:Name="Vw_AccountSummaryBranchWise">
+      <DefiningQuery>SELECT 
+      [Vw_AccountSummaryBranchWise].[ClientId] AS [ClientId], 
+      [Vw_AccountSummaryBranchWise].[BranchId] AS [BranchId], 
+      [Vw_AccountSummaryBranchWise].[BranchName] AS [BranchName], 
+      [Vw_AccountSummaryBranchWise].[Expense] AS [Expense], 
+      [Vw_AccountSummaryBranchWise].[income] AS [income], 
+      [Vw_AccountSummaryBranchWise].[Date] AS [Date]
+      FROM [dbo].[Vw_AccountSummaryBranchWise] AS [Vw_AccountSummaryBranchWise]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_Admissions" EntityType="VedantaModel.Store.vw_Admissions" store:Type="Views" store:Schema="dbo" store:Name="vw_Admissions">
+      <DefiningQuery>SELECT 
+      [vw_Admissions].[Id] AS [Id], 
+      [vw_Admissions].[RollNumber] AS [RollNumber], 
+      [vw_Admissions].[CourseCode] AS [CourseCode], 
+      [vw_Admissions].[CourseName] AS [CourseName], 
+      [vw_Admissions].[Duration_In_Months] AS [Duration_In_Months], 
+      [vw_Admissions].[CourseFees] AS [CourseFees], 
+      [vw_Admissions].[AdmissionDate] AS [AdmissionDate], 
+      [vw_Admissions].[BatchCode] AS [BatchCode], 
+      [vw_Admissions].[BatchName] AS [BatchName], 
+      [vw_Admissions].[BatchStartDate] AS [BatchStartDate], 
+      [vw_Admissions].[BatchEndDate] AS [BatchEndDate], 
+      [vw_Admissions].[DownPayment] AS [DownPayment], 
+      [vw_Admissions].[NextPaymentDueDate] AS [NextPaymentDueDate], 
+      [vw_Admissions].[IsActive] AS [IsActive], 
+      [vw_Admissions].[MaximumDiscountAmount] AS [MaximumDiscountAmount], 
+      [vw_Admissions].[RegistrationNumber] AS [RegistrationNumber], 
+      [vw_Admissions].[IsComputerKnown] AS [IsComputerKnown], 
+      [vw_Admissions].[ComputerKnoledgeLevel] AS [ComputerKnoledgeLevel], 
+      [vw_Admissions].[ComputerInterestName] AS [ComputerInterestName], 
+      [vw_Admissions].[HowToKnowAboutUs] AS [HowToKnowAboutUs], 
+      [vw_Admissions].[Location] AS [Location], 
+      [vw_Admissions].[BatchStartTime] AS [BatchStartTime], 
+      [vw_Admissions].[BatchEndTime] AS [BatchEndTime], 
+      [vw_Admissions].[StudentId] AS [StudentId], 
+      [vw_Admissions].[CourseId] AS [CourseId], 
+      [vw_Admissions].[NeedJobAssistance] AS [NeedJobAssistance], 
+      [vw_Admissions].[Expr1] AS [Expr1], 
+      [vw_Admissions].[BranchCode] AS [BranchCode], 
+      [vw_Admissions].[BranchName] AS [BranchName], 
+      [vw_Admissions].[FirstName] AS [FirstName], 
+      [vw_Admissions].[LastName] AS [LastName], 
+      [vw_Admissions].[MiddleName] AS [MiddleName], 
+      [vw_Admissions].[Qualification] AS [Qualification], 
+      [vw_Admissions].[Gender] AS [Gender], 
+      [vw_Admissions].[DOB] AS [DOB], 
+      [vw_Admissions].[Age] AS [Age], 
+      [vw_Admissions].[MaritalStatusName] AS [MaritalStatusName], 
+      [vw_Admissions].[FatherName] AS [FatherName], 
+      [vw_Admissions].[MotherName] AS [MotherName], 
+      [vw_Admissions].[Street] AS [Street], 
+      [vw_Admissions].[Street2] AS [Street2], 
+      [vw_Admissions].[City] AS [City], 
+      [vw_Admissions].[State] AS [State], 
+      [vw_Admissions].[Country] AS [Country], 
+      [vw_Admissions].[Zip] AS [Zip], 
+      [vw_Admissions].[Phone] AS [Phone], 
+      [vw_Admissions].[Cell] AS [Cell], 
+      [vw_Admissions].[Email] AS [Email], 
+      [vw_Admissions].[IsStudentActive] AS [IsStudentActive], 
+      [vw_Admissions].[Mothertoungue] AS [Mothertoungue], 
+      [vw_Admissions].[PassportNo] AS [PassportNo], 
+      [vw_Admissions].[PAN] AS [PAN], 
+      [vw_Admissions].[UIDNo] AS [UIDNo], 
+      [vw_Admissions].[Occupation] AS [Occupation], 
+      [vw_Admissions].[IncomeSlot] AS [IncomeSlot], 
+      [vw_Admissions].[BranchId] AS [BranchId], 
+      [vw_Admissions].[Nationality] AS [Nationality], 
+      [vw_Admissions].[Religion] AS [Religion], 
+      [vw_Admissions].[NationalityId] AS [NationalityId], 
+      [vw_Admissions].[ReligionId] AS [ReligionId], 
+      [vw_Admissions].[StateId] AS [StateId], 
+      [vw_Admissions].[CountryId] AS [CountryId], 
+      [vw_Admissions].[FeeCollected] AS [FeeCollected], 
+      [vw_Admissions].[TotalInstallmentAmount] AS [TotalInstallmentAmount], 
+      [vw_Admissions].[RegionalOfficeId] AS [RegionalOfficeId], 
+      [vw_Admissions].[ZonalOfficeId] AS [ZonalOfficeId], 
+      [vw_Admissions].[BatchId] AS [BatchId], 
+      [vw_Admissions].[PaymentModeId] AS [PaymentModeId], 
+      [vw_Admissions].[ManualReceiptNumber] AS [ManualReceiptNumber], 
+      [vw_Admissions].[PaymentMode] AS [PaymentMode], 
+      [vw_Admissions].[Description] AS [Description], 
+      [vw_Admissions].[LeavingDate] AS [LeavingDate], 
+      [vw_Admissions].[ClientId] AS [ClientId], 
+      [vw_Admissions].[WillBePaidInInstallment] AS [WillBePaidInInstallment], 
+      [vw_Admissions].[IsBranchActive] AS [IsBranchActive]
+      FROM [dbo].[vw_Admissions] AS [vw_Admissions]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_aspnet_Applications" EntityType="VedantaModel.Store.vw_aspnet_Applications" store:Type="Views" store:Schema="dbo" store:Name="vw_aspnet_Applications">
+      <DefiningQuery>SELECT 
+      [vw_aspnet_Applications].[ApplicationName] AS [ApplicationName], 
+      [vw_aspnet_Applications].[LoweredApplicationName] AS [LoweredApplicationName], 
+      [vw_aspnet_Applications].[ApplicationId] AS [ApplicationId], 
+      [vw_aspnet_Applications].[Description] AS [Description]
+      FROM [dbo].[vw_aspnet_Applications] AS [vw_aspnet_Applications]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_aspnet_MembershipUsers" EntityType="VedantaModel.Store.vw_aspnet_MembershipUsers" store:Type="Views" store:Schema="dbo" store:Name="vw_aspnet_MembershipUsers">
+      <DefiningQuery>SELECT 
+      [vw_aspnet_MembershipUsers].[UserId] AS [UserId], 
+      [vw_aspnet_MembershipUsers].[PasswordFormat] AS [PasswordFormat], 
+      [vw_aspnet_MembershipUsers].[MobilePIN] AS [MobilePIN], 
+      [vw_aspnet_MembershipUsers].[Email] AS [Email], 
+      [vw_aspnet_MembershipUsers].[LoweredEmail] AS [LoweredEmail], 
+      [vw_aspnet_MembershipUsers].[PasswordQuestion] AS [PasswordQuestion], 
+      [vw_aspnet_MembershipUsers].[PasswordAnswer] AS [PasswordAnswer], 
+      [vw_aspnet_MembershipUsers].[IsApproved] AS [IsApproved], 
+      [vw_aspnet_MembershipUsers].[IsLockedOut] AS [IsLockedOut], 
+      [vw_aspnet_MembershipUsers].[CreateDate] AS [CreateDate], 
+      [vw_aspnet_MembershipUsers].[LastLoginDate] AS [LastLoginDate], 
+      [vw_aspnet_MembershipUsers].[LastPasswordChangedDate] AS [LastPasswordChangedDate], 
+      [vw_aspnet_MembershipUsers].[LastLockoutDate] AS [LastLockoutDate], 
+      [vw_aspnet_MembershipUsers].[FailedPasswordAttemptCount] AS [FailedPasswordAttemptCount], 
+      [vw_aspnet_MembershipUsers].[FailedPasswordAttemptWindowStart] AS [FailedPasswordAttemptWindowStart], 
+      [vw_aspnet_MembershipUsers].[FailedPasswordAnswerAttemptCount] AS [FailedPasswordAnswerAttemptCount], 
+      [vw_aspnet_MembershipUsers].[FailedPasswordAnswerAttemptWindowStart] AS [FailedPasswordAnswerAttemptWindowStart], 
+      [vw_aspnet_MembershipUsers].[Comment] AS [Comment], 
+      [vw_aspnet_MembershipUsers].[ApplicationId] AS [ApplicationId], 
+      [vw_aspnet_MembershipUsers].[UserName] AS [UserName], 
+      [vw_aspnet_MembershipUsers].[MobileAlias] AS [MobileAlias], 
+      [vw_aspnet_MembershipUsers].[IsAnonymous] AS [IsAnonymous], 
+      [vw_aspnet_MembershipUsers].[LastActivityDate] AS [LastActivityDate]
+      FROM [dbo].[vw_aspnet_MembershipUsers] AS [vw_aspnet_MembershipUsers]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_aspnet_Profiles" EntityType="VedantaModel.Store.vw_aspnet_Profiles" store:Type="Views" store:Schema="dbo" store:Name="vw_aspnet_Profiles">
+      <DefiningQuery>SELECT 
+      [vw_aspnet_Profiles].[UserId] AS [UserId], 
+      [vw_aspnet_Profiles].[LastUpdatedDate] AS [LastUpdatedDate], 
+      [vw_aspnet_Profiles].[DataSize] AS [DataSize]
+      FROM [dbo].[vw_aspnet_Profiles] AS [vw_aspnet_Profiles]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_aspnet_Roles" EntityType="VedantaModel.Store.vw_aspnet_Roles" store:Type="Views" store:Schema="dbo" store:Name="vw_aspnet_Roles">
+      <DefiningQuery>SELECT 
+      [vw_aspnet_Roles].[ApplicationId] AS [ApplicationId], 
+      [vw_aspnet_Roles].[RoleId] AS [RoleId], 
+      [vw_aspnet_Roles].[RoleName] AS [RoleName], 
+      [vw_aspnet_Roles].[LoweredRoleName] AS [LoweredRoleName], 
+      [vw_aspnet_Roles].[Description] AS [Description]
+      FROM [dbo].[vw_aspnet_Roles] AS [vw_aspnet_Roles]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_aspnet_Users" EntityType="VedantaModel.Store.vw_aspnet_Users" store:Type="Views" store:Schema="dbo" store:Name="vw_aspnet_Users">
+      <DefiningQuery>SELECT 
+      [vw_aspnet_Users].[ApplicationId] AS [ApplicationId], 
+      [vw_aspnet_Users].[UserId] AS [UserId], 
+      [vw_aspnet_Users].[UserName] AS [UserName], 
+      [vw_aspnet_Users].[LoweredUserName] AS [LoweredUserName], 
+      [vw_aspnet_Users].[MobileAlias] AS [MobileAlias], 
+      [vw_aspnet_Users].[IsAnonymous] AS [IsAnonymous], 
+      [vw_aspnet_Users].[LastActivityDate] AS [LastActivityDate]
+      FROM [dbo].[vw_aspnet_Users] AS [vw_aspnet_Users]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_aspnet_UsersInRoles" EntityType="VedantaModel.Store.vw_aspnet_UsersInRoles" store:Type="Views" store:Schema="dbo" store:Name="vw_aspnet_UsersInRoles">
+      <DefiningQuery>SELECT 
+      [vw_aspnet_UsersInRoles].[UserId] AS [UserId], 
+      [vw_aspnet_UsersInRoles].[RoleId] AS [RoleId]
+      FROM [dbo].[vw_aspnet_UsersInRoles] AS [vw_aspnet_UsersInRoles]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_aspnet_WebPartState_Paths" EntityType="VedantaModel.Store.vw_aspnet_WebPartState_Paths" store:Type="Views" store:Schema="dbo" store:Name="vw_aspnet_WebPartState_Paths">
+      <DefiningQuery>SELECT 
+      [vw_aspnet_WebPartState_Paths].[ApplicationId] AS [ApplicationId], 
+      [vw_aspnet_WebPartState_Paths].[PathId] AS [PathId], 
+      [vw_aspnet_WebPartState_Paths].[Path] AS [Path], 
+      [vw_aspnet_WebPartState_Paths].[LoweredPath] AS [LoweredPath]
+      FROM [dbo].[vw_aspnet_WebPartState_Paths] AS [vw_aspnet_WebPartState_Paths]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_aspnet_WebPartState_Shared" EntityType="VedantaModel.Store.vw_aspnet_WebPartState_Shared" store:Type="Views" store:Schema="dbo" store:Name="vw_aspnet_WebPartState_Shared">
+      <DefiningQuery>SELECT 
+      [vw_aspnet_WebPartState_Shared].[PathId] AS [PathId], 
+      [vw_aspnet_WebPartState_Shared].[DataSize] AS [DataSize], 
+      [vw_aspnet_WebPartState_Shared].[LastUpdatedDate] AS [LastUpdatedDate]
+      FROM [dbo].[vw_aspnet_WebPartState_Shared] AS [vw_aspnet_WebPartState_Shared]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_aspnet_WebPartState_User" EntityType="VedantaModel.Store.vw_aspnet_WebPartState_User" store:Type="Views" store:Schema="dbo" store:Name="vw_aspnet_WebPartState_User">
+      <DefiningQuery>SELECT 
+      [vw_aspnet_WebPartState_User].[PathId] AS [PathId], 
+      [vw_aspnet_WebPartState_User].[UserId] AS [UserId], 
+      [vw_aspnet_WebPartState_User].[DataSize] AS [DataSize], 
+      [vw_aspnet_WebPartState_User].[LastUpdatedDate] AS [LastUpdatedDate]
+      FROM [dbo].[vw_aspnet_WebPartState_User] AS [vw_aspnet_WebPartState_User]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_AssetList" EntityType="VedantaModel.Store.vw_AssetList" store:Type="Views" store:Schema="dbo" store:Name="vw_AssetList">
+      <DefiningQuery>SELECT 
+      [vw_AssetList].[Id] AS [Id], 
+      [vw_AssetList].[Code] AS [Code], 
+      [vw_AssetList].[Name] AS [Name], 
+      [vw_AssetList].[Quantity] AS [Quantity], 
+      [vw_AssetList].[PurchasedDate] AS [PurchasedDate], 
+      [vw_AssetList].[LastRepaireDate] AS [LastRepaireDate], 
+      [vw_AssetList].[LastAuditDate] AS [LastAuditDate], 
+      [vw_AssetList].[IsWorking] AS [IsWorking], 
+      [vw_AssetList].[BranchName] AS [BranchName], 
+      [vw_AssetList].[BranchId] AS [BranchId], 
+      [vw_AssetList].[RegionalOfficeId] AS [RegionalOfficeId], 
+      [vw_AssetList].[ZonalOfficeId] AS [ZonalOfficeId], 
+      [vw_AssetList].[BranchCode] AS [BranchCode], 
+      [vw_AssetList].[ClientId] AS [ClientId], 
+      [vw_AssetList].[WarrantyExpiryDate] AS [WarrantyExpiryDate], 
+      [vw_AssetList].[AMC_Reporesntative] AS [AMC_Reporesntative], 
+      [vw_AssetList].[AMC_Address] AS [AMC_Address], 
+      [vw_AssetList].[AMC_Phone] AS [AMC_Phone], 
+      [vw_AssetList].[AMC_Email] AS [AMC_Email], 
+      [vw_AssetList].[IsBranchActive] AS [IsBranchActive]
+      FROM [dbo].[vw_AssetList] AS [vw_AssetList]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_BatchList" EntityType="VedantaModel.Store.vw_BatchList" store:Type="Views" store:Schema="dbo" store:Name="vw_BatchList">
+      <DefiningQuery>SELECT 
+      [vw_BatchList].[Id] AS [Id], 
+      [vw_BatchList].[BranchId] AS [BranchId], 
+      [vw_BatchList].[BatchCode] AS [BatchCode], 
+      [vw_BatchList].[BatchName] AS [BatchName], 
+      [vw_BatchList].[BatchStartTime] AS [BatchStartTime], 
+      [vw_BatchList].[BatchEndTime] AS [BatchEndTime], 
+      [vw_BatchList].[StudentStrength] AS [StudentStrength], 
+      [vw_BatchList].[RegionalOfficeId] AS [RegionalOfficeId], 
+      [vw_BatchList].[ZonalOfficeId] AS [ZonalOfficeId], 
+      [vw_BatchList].[BranchCode] AS [BranchCode], 
+      [vw_BatchList].[BranchName] AS [BranchName], 
+      [vw_BatchList].[ClientId] AS [ClientId], 
+      [vw_BatchList].[StudentCount] AS [StudentCount], 
+      [vw_BatchList].[IsBranchActive] AS [IsBranchActive]
+      FROM [dbo].[vw_BatchList] AS [vw_BatchList]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_Branches" EntityType="VedantaModel.Store.vw_Branches" store:Type="Views" store:Schema="dbo" store:Name="vw_Branches">
+      <DefiningQuery>SELECT 
+      [vw_Branches].[Id] AS [Id], 
+      [vw_Branches].[BranchCode] AS [BranchCode], 
+      [vw_Branches].[BranchName] AS [BranchName], 
+      [vw_Branches].[Address1] AS [Address1], 
+      [vw_Branches].[Address2] AS [Address2], 
+      [vw_Branches].[City] AS [City], 
+      [vw_Branches].[State] AS [State], 
+      [vw_Branches].[Country] AS [Country], 
+      [vw_Branches].[PIN] AS [PIN], 
+      [vw_Branches].[Phones] AS [Phones], 
+      [vw_Branches].[Fax] AS [Fax], 
+      [vw_Branches].[Email] AS [Email], 
+      [vw_Branches].[Remarks] AS [Remarks], 
+      [vw_Branches].[CreatedDate] AS [CreatedDate], 
+      [vw_Branches].[CreatedBy] AS [CreatedBy], 
+      [vw_Branches].[LastUpdatedDate] AS [LastUpdatedDate], 
+      [vw_Branches].[LastUpdatedBy] AS [LastUpdatedBy], 
+      [vw_Branches].[IsActive] AS [IsActive], 
+      [vw_Branches].[ClosingDate] AS [ClosingDate], 
+      [vw_Branches].[RegionName] AS [RegionName], 
+      [vw_Branches].[ZoneName] AS [ZoneName], 
+      [vw_Branches].[IsRegionalOfficeActive] AS [IsRegionalOfficeActive], 
+      [vw_Branches].[IsZonalOfficeActive] AS [IsZonalOfficeActive], 
+      [vw_Branches].[RegionalWebsite] AS [RegionalWebsite], 
+      [vw_Branches].[ZonalWebSite] AS [ZonalWebSite], 
+      [vw_Branches].[RegionalOfficeId] AS [RegionalOfficeId], 
+      [vw_Branches].[ZonalOfficeId] AS [ZonalOfficeId], 
+      [vw_Branches].[ClientId] AS [ClientId], 
+      [vw_Branches].[ContentType] AS [ContentType], 
+      [vw_Branches].[BranchTypeId] AS [BranchTypeId], 
+      [vw_Branches].[BranchType] AS [BranchType]
+      FROM [dbo].[vw_Branches] AS [vw_Branches]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_ClientList" EntityType="VedantaModel.Store.vw_ClientList" store:Type="Views" store:Schema="dbo" store:Name="vw_ClientList">
+      <DefiningQuery>SELECT 
+      [vw_ClientList].[Id] AS [Id], 
+      [vw_ClientList].[Name] AS [Name], 
+      [vw_ClientList].[AdminstratorId] AS [AdminstratorId], 
+      [vw_ClientList].[Lane] AS [Lane], 
+      [vw_ClientList].[Street] AS [Street], 
+      [vw_ClientList].[City] AS [City], 
+      [vw_ClientList].[Zip] AS [Zip], 
+      [vw_ClientList].[Phone1] AS [Phone1], 
+      [vw_ClientList].[Phone2] AS [Phone2], 
+      [vw_ClientList].[Cell] AS [Cell], 
+      [vw_ClientList].[Email] AS [Email], 
+      [vw_ClientList].[Website] AS [Website], 
+      [vw_ClientList].[ContractStartDate] AS [ContractStartDate], 
+      [vw_ClientList].[ContractEndDate] AS [ContractEndDate], 
+      [vw_ClientList].[NoOfSchoolsPermitted] AS [NoOfSchoolsPermitted], 
+      [vw_ClientList].[NoOfUsers] AS [NoOfUsers], 
+      [vw_ClientList].[CreateDate] AS [CreateDate], 
+      [vw_ClientList].[LastUpdated] AS [LastUpdated], 
+      [vw_ClientList].[UpdatedBy] AS [UpdatedBy], 
+      [vw_ClientList].[StateId] AS [StateId], 
+      [vw_ClientList].[StateName] AS [StateName], 
+      [vw_ClientList].[StateCode] AS [StateCode], 
+      [vw_ClientList].[CountryId] AS [CountryId], 
+      [vw_ClientList].[CountryName] AS [CountryName], 
+      [vw_ClientList].[CountryCode] AS [CountryCode], 
+      [vw_ClientList].[BusinessTypeId] AS [BusinessTypeId], 
+      [vw_ClientList].[BusinessName] AS [BusinessName], 
+      [vw_ClientList].[IsActive] AS [IsActive]
+      FROM [dbo].[vw_ClientList] AS [vw_ClientList]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_CollectionSummaryBranchWise" EntityType="VedantaModel.Store.vw_CollectionSummaryBranchWise" store:Type="Views" store:Schema="dbo" store:Name="vw_CollectionSummaryBranchWise">
+      <DefiningQuery>SELECT 
+      [vw_CollectionSummaryBranchWise].[ClientId] AS [ClientId], 
+      [vw_CollectionSummaryBranchWise].[BranchId] AS [BranchId], 
+      [vw_CollectionSummaryBranchWise].[BranchName] AS [BranchName], 
+      [vw_CollectionSummaryBranchWise].[CourseCode] AS [CourseCode], 
+      [vw_CollectionSummaryBranchWise].[PaymentDate] AS [PaymentDate], 
+      [vw_CollectionSummaryBranchWise].[collectedAmt] AS [collectedAmt]
+      FROM [dbo].[vw_CollectionSummaryBranchWise] AS [vw_CollectionSummaryBranchWise]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_CourseBrands" EntityType="VedantaModel.Store.vw_CourseBrands" store:Type="Views" store:Schema="dbo" store:Name="vw_CourseBrands">
+      <DefiningQuery>SELECT 
+      [vw_CourseBrands].[Id] AS [Id], 
+      [vw_CourseBrands].[BranchId] AS [BranchId], 
+      [vw_CourseBrands].[Name] AS [Name], 
+      [vw_CourseBrands].[BoardUniversityName] AS [BoardUniversityName], 
+      [vw_CourseBrands].[RepresentativeName] AS [RepresentativeName], 
+      [vw_CourseBrands].[Street1] AS [Street1], 
+      [vw_CourseBrands].[Street2] AS [Street2], 
+      [vw_CourseBrands].[City] AS [City], 
+      [vw_CourseBrands].[StateId] AS [StateId], 
+      [vw_CourseBrands].[ZIP] AS [ZIP], 
+      [vw_CourseBrands].[RegionalOfficeId] AS [RegionalOfficeId], 
+      [vw_CourseBrands].[ZonalOfficeId] AS [ZonalOfficeId], 
+      [vw_CourseBrands].[BranchCode] AS [BranchCode], 
+      [vw_CourseBrands].[BranchName] AS [BranchName], 
+      [vw_CourseBrands].[StateName] AS [StateName], 
+      [vw_CourseBrands].[CountryName] AS [CountryName], 
+      [vw_CourseBrands].[ClientId] AS [ClientId], 
+      [vw_CourseBrands].[IsBranchActive] AS [IsBranchActive]
+      FROM [dbo].[vw_CourseBrands] AS [vw_CourseBrands]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_Courses" EntityType="VedantaModel.Store.vw_Courses" store:Type="Views" store:Schema="dbo" store:Name="vw_Courses">
+      <DefiningQuery>SELECT 
+      [vw_Courses].[Id] AS [Id], 
+      [vw_Courses].[CourseCode] AS [CourseCode], 
+      [vw_Courses].[CourseName] AS [CourseName], 
+      [vw_Courses].[Duration_In_Months] AS [Duration_In_Months], 
+      [vw_Courses].[FastTrackDuration] AS [FastTrackDuration], 
+      [vw_Courses].[CourseFees] AS [CourseFees], 
+      [vw_Courses].[MinimumDownPayment] AS [MinimumDownPayment], 
+      [vw_Courses].[MaximumDiscountAmount] AS [MaximumDiscountAmount], 
+      [vw_Courses].[MaximumNumberOfInstallments] AS [MaximumNumberOfInstallments], 
+      [vw_Courses].[InstallmentAmount] AS [InstallmentAmount], 
+      [vw_Courses].[TotalInstallmentAmount] AS [TotalInstallmentAmount], 
+      [vw_Courses].[CourseBrandId] AS [CourseBrandId], 
+      [vw_Courses].[CourseBrandName] AS [CourseBrandName], 
+      [vw_Courses].[BoardUniversityName] AS [BoardUniversityName], 
+      [vw_Courses].[BranchId] AS [BranchId], 
+      [vw_Courses].[RegionalOfficeId] AS [RegionalOfficeId], 
+      [vw_Courses].[ZonalOfficeId] AS [ZonalOfficeId], 
+      [vw_Courses].[BranchName] AS [BranchName], 
+      [vw_Courses].[IsBranchActive] AS [IsBranchActive], 
+      [vw_Courses].[ClientId] AS [ClientId], 
+      [vw_Courses].[Name] AS [Name]
+      FROM [dbo].[vw_Courses] AS [vw_Courses]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_Employees" EntityType="VedantaModel.Store.vw_Employees" store:Type="Views" store:Schema="dbo" store:Name="vw_Employees">
+      <DefiningQuery>SELECT 
+      [vw_Employees].[EmployeeId] AS [EmployeeId], 
+      [vw_Employees].[FirstName] AS [FirstName], 
+      [vw_Employees].[MiddleName] AS [MiddleName], 
+      [vw_Employees].[LastName] AS [LastName], 
+      [vw_Employees].[DOB] AS [DOB], 
+      [vw_Employees].[MaritalStatusName] AS [MaritalStatusName], 
+      [vw_Employees].[Gender] AS [Gender], 
+      [vw_Employees].[RankName] AS [RankName], 
+      [vw_Employees].[FatherName] AS [FatherName], 
+      [vw_Employees].[MotherName] AS [MotherName], 
+      [vw_Employees].[Street] AS [Street], 
+      [vw_Employees].[Street2] AS [Street2], 
+      [vw_Employees].[City] AS [City], 
+      [vw_Employees].[State] AS [State], 
+      [vw_Employees].[Country] AS [Country], 
+      [vw_Employees].[Zip] AS [Zip], 
+      [vw_Employees].[Phone] AS [Phone], 
+      [vw_Employees].[Mobile] AS [Mobile], 
+      [vw_Employees].[Email] AS [Email], 
+      [vw_Employees].[IsActive] AS [IsActive], 
+      [vw_Employees].[LeavingDate] AS [LeavingDate], 
+      [vw_Employees].[CreatedDate] AS [CreatedDate], 
+      [vw_Employees].[LastUpdated] AS [LastUpdated], 
+      [vw_Employees].[PassportNo] AS [PassportNo], 
+      [vw_Employees].[PAN] AS [PAN], 
+      [vw_Employees].[UIDNo] AS [UIDNo], 
+      [vw_Employees].[BranchCode] AS [BranchCode], 
+      [vw_Employees].[BranchName] AS [BranchName], 
+      [vw_Employees].[BranchId] AS [BranchId], 
+      [vw_Employees].[EmployeesRankId] AS [EmployeesRankId], 
+      [vw_Employees].[Qualification] AS [Qualification], 
+      [vw_Employees].[RegionName] AS [RegionName], 
+      [vw_Employees].[ZoneName] AS [ZoneName], 
+      [vw_Employees].[IsRegionActive] AS [IsRegionActive], 
+      [vw_Employees].[IsZoneActive] AS [IsZoneActive], 
+      [vw_Employees].[RegionId] AS [RegionId], 
+      [vw_Employees].[ZoneId] AS [ZoneId], 
+      [vw_Employees].[ClientId] AS [ClientId], 
+      [vw_Employees].[JoiningDate] AS [JoiningDate], 
+      [vw_Employees].[IsBranchActive] AS [IsBranchActive]
+      FROM [dbo].[vw_Employees] AS [vw_Employees]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_ExpenseHeads" EntityType="VedantaModel.Store.vw_ExpenseHeads" store:Type="Views" store:Schema="dbo" store:Name="vw_ExpenseHeads">
+      <DefiningQuery>SELECT 
+      [vw_ExpenseHeads].[Id] AS [Id], 
+      [vw_ExpenseHeads].[CODE] AS [CODE], 
+      [vw_ExpenseHeads].[NAME] AS [NAME], 
+      [vw_ExpenseHeads].[LedgerTypeId] AS [LedgerTypeId], 
+      [vw_ExpenseHeads].[LedgerType] AS [LedgerType], 
+      [vw_ExpenseHeads].[OP_BAL] AS [OP_BAL], 
+      [vw_ExpenseHeads].[ClientId] AS [ClientId]
+      FROM [dbo].[vw_ExpenseHeads] AS [vw_ExpenseHeads]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_FeeCollections" EntityType="VedantaModel.Store.vw_FeeCollections" store:Type="Views" store:Schema="dbo" store:Name="vw_FeeCollections">
+      <DefiningQuery>SELECT 
+      [vw_FeeCollections].[Id] AS [Id], 
+      [vw_FeeCollections].[PaymentHead] AS [PaymentHead], 
+      [vw_FeeCollections].[PaymentDate] AS [PaymentDate], 
+      [vw_FeeCollections].[PaymentMode] AS [PaymentMode], 
+      [vw_FeeCollections].[Amount] AS [Amount], 
+      [vw_FeeCollections].[Description] AS [Description], 
+      [vw_FeeCollections].[ManualreceiptNumber] AS [ManualreceiptNumber], 
+      [vw_FeeCollections].[AdmissionId] AS [AdmissionId], 
+      [vw_FeeCollections].[RollNumber] AS [RollNumber], 
+      [vw_FeeCollections].[CourseCode] AS [CourseCode], 
+      [vw_FeeCollections].[CourseName] AS [CourseName], 
+      [vw_FeeCollections].[AdmissionDate] AS [AdmissionDate], 
+      [vw_FeeCollections].[DownPayment] AS [DownPayment], 
+      [vw_FeeCollections].[NextPaymentDueDate] AS [NextPaymentDueDate], 
+      [vw_FeeCollections].[IsActive] AS [IsActive], 
+      [vw_FeeCollections].[RegistrationNumber] AS [RegistrationNumber], 
+      [vw_FeeCollections].[BranchName] AS [BranchName], 
+      [vw_FeeCollections].[BranchCode] AS [BranchCode], 
+      [vw_FeeCollections].[BranchId] AS [BranchId], 
+      [vw_FeeCollections].[RegionalOfficeId] AS [RegionalOfficeId], 
+      [vw_FeeCollections].[ZonalOfficeId] AS [ZonalOfficeId], 
+      [vw_FeeCollections].[RegionName] AS [RegionName], 
+      [vw_FeeCollections].[ZoneName] AS [ZoneName], 
+      [vw_FeeCollections].[ClientId] AS [ClientId], 
+      [vw_FeeCollections].[InstallmentStructureId] AS [InstallmentStructureId], 
+      [vw_FeeCollections].[InstallmentNo] AS [InstallmentNo], 
+      [vw_FeeCollections].[InstallmentAmount] AS [InstallmentAmount], 
+      [vw_FeeCollections].[DueDate] AS [DueDate], 
+      [vw_FeeCollections].[LateFine] AS [LateFine], 
+      [vw_FeeCollections].[TotalReceived] AS [TotalReceived], 
+      [vw_FeeCollections].[PaymentHeadId] AS [PaymentHeadId], 
+      [vw_FeeCollections].[PaymentModeId] AS [PaymentModeId], 
+      [vw_FeeCollections].[BranchTypeId] AS [BranchTypeId], 
+      [vw_FeeCollections].[BranchType] AS [BranchType], 
+      [vw_FeeCollections].[IsBranchActive] AS [IsBranchActive]
+      FROM [dbo].[vw_FeeCollections] AS [vw_FeeCollections]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_NewAdmissionSummaryBranchWise" EntityType="VedantaModel.Store.vw_NewAdmissionSummaryBranchWise" store:Type="Views" store:Schema="dbo" store:Name="vw_NewAdmissionSummaryBranchWise">
+      <DefiningQuery>SELECT 
+      [vw_NewAdmissionSummaryBranchWise].[ClientId] AS [ClientId], 
+      [vw_NewAdmissionSummaryBranchWise].[BranchId] AS [BranchId], 
+      [vw_NewAdmissionSummaryBranchWise].[BranchName] AS [BranchName], 
+      [vw_NewAdmissionSummaryBranchWise].[CourseCode] AS [CourseCode], 
+      [vw_NewAdmissionSummaryBranchWise].[AdmissionDate] AS [AdmissionDate], 
+      [vw_NewAdmissionSummaryBranchWise].[AdmCount] AS [AdmCount]
+      FROM [dbo].[vw_NewAdmissionSummaryBranchWise] AS [vw_NewAdmissionSummaryBranchWise]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_PaymentList" EntityType="VedantaModel.Store.vw_PaymentList" store:Type="Views" store:Schema="dbo" store:Name="vw_PaymentList">
+      <DefiningQuery>SELECT 
+      [vw_PaymentList].[Id] AS [Id], 
+      [vw_PaymentList].[BranchId] AS [BranchId], 
+      [vw_PaymentList].[BranchName] AS [BranchName], 
+      [vw_PaymentList].[Date] AS [Date], 
+      [vw_PaymentList].[PaidTo] AS [PaidTo], 
+      [vw_PaymentList].[PaymentMode] AS [PaymentMode], 
+      [vw_PaymentList].[ExpenseHeadCode] AS [ExpenseHeadCode], 
+      [vw_PaymentList].[ExpenseHeadName] AS [ExpenseHeadName], 
+      [vw_PaymentList].[LedgerType] AS [LedgerType], 
+      [vw_PaymentList].[Amounts] AS [Amounts], 
+      [vw_PaymentList].[Narration] AS [Narration], 
+      [vw_PaymentList].[LedgerTypeId] AS [LedgerTypeId], 
+      [vw_PaymentList].[VoucherNo] AS [VoucherNo], 
+      [vw_PaymentList].[CHQ_NO] AS [CHQ_NO], 
+      [vw_PaymentList].[CHQ_DATE] AS [CHQ_DATE], 
+      [vw_PaymentList].[BANK] AS [BANK], 
+      [vw_PaymentList].[Remarks] AS [Remarks], 
+      [vw_PaymentList].[ClientId] AS [ClientId], 
+      [vw_PaymentList].[ExpenseHeadId] AS [ExpenseHeadId], 
+      [vw_PaymentList].[BranchTypeId] AS [BranchTypeId], 
+      [vw_PaymentList].[IsBranchActive] AS [IsBranchActive]
+      FROM [dbo].[vw_PaymentList] AS [vw_PaymentList]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_RegionalOffices" EntityType="VedantaModel.Store.vw_RegionalOffices" store:Type="Views" store:Schema="dbo" store:Name="vw_RegionalOffices">
+      <DefiningQuery>SELECT 
+      [vw_RegionalOffices].[Id] AS [Id], 
+      [vw_RegionalOffices].[ZonalOfficeId] AS [ZonalOfficeId], 
+      [vw_RegionalOffices].[RegionName] AS [RegionName], 
+      [vw_RegionalOffices].[Address] AS [Address], 
+      [vw_RegionalOffices].[Address2] AS [Address2], 
+      [vw_RegionalOffices].[City] AS [City], 
+      [vw_RegionalOffices].[PIN] AS [PIN], 
+      [vw_RegionalOffices].[Phone] AS [Phone], 
+      [vw_RegionalOffices].[Mobile] AS [Mobile], 
+      [vw_RegionalOffices].[Email] AS [Email], 
+      [vw_RegionalOffices].[Fax] AS [Fax], 
+      [vw_RegionalOffices].[Website] AS [Website], 
+      [vw_RegionalOffices].[Remarks] AS [Remarks], 
+      [vw_RegionalOffices].[CreatedDate] AS [CreatedDate], 
+      [vw_RegionalOffices].[LastUpdatedDate] AS [LastUpdatedDate], 
+      [vw_RegionalOffices].[IsActive] AS [IsActive], 
+      [vw_RegionalOffices].[ClosingDate] AS [ClosingDate], 
+      [vw_RegionalOffices].[ZoneName] AS [ZoneName], 
+      [vw_RegionalOffices].[Expr1] AS [Expr1], 
+      [vw_RegionalOffices].[Expr2] AS [Expr2], 
+      [vw_RegionalOffices].[ClientId] AS [ClientId], 
+      [vw_RegionalOffices].[CountryId] AS [CountryId], 
+      [vw_RegionalOffices].[StateName] AS [StateName], 
+      [vw_RegionalOffices].[StateId] AS [StateId], 
+      [vw_RegionalOffices].[CountryName] AS [CountryName], 
+      [vw_RegionalOffices].[Expr3] AS [Expr3], 
+      [vw_RegionalOffices].[IsZoneActive] AS [IsZoneActive]
+      FROM [dbo].[vw_RegionalOffices] AS [vw_RegionalOffices]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_Student_Lists" EntityType="VedantaModel.Store.vw_Student_Lists" store:Type="Views" store:Schema="dbo" store:Name="vw_Student_Lists">
+      <DefiningQuery>SELECT 
+      [vw_Student_Lists].[id] AS [id], 
+      [vw_Student_Lists].[BranchCode] AS [BranchCode], 
+      [vw_Student_Lists].[BranchName] AS [BranchName], 
+      [vw_Student_Lists].[FirstName] AS [FirstName], 
+      [vw_Student_Lists].[MiddleName] AS [MiddleName], 
+      [vw_Student_Lists].[LastName] AS [LastName], 
+      [vw_Student_Lists].[Gender] AS [Gender], 
+      [vw_Student_Lists].[DOB] AS [DOB], 
+      [vw_Student_Lists].[Age] AS [Age], 
+      [vw_Student_Lists].[MaritalStatusName] AS [MaritalStatusName], 
+      [vw_Student_Lists].[FatherName] AS [FatherName], 
+      [vw_Student_Lists].[MotherName] AS [MotherName], 
+      [vw_Student_Lists].[Street] AS [Street], 
+      [vw_Student_Lists].[Street2] AS [Street2], 
+      [vw_Student_Lists].[City] AS [City], 
+      [vw_Student_Lists].[State] AS [State], 
+      [vw_Student_Lists].[Country] AS [Country], 
+      [vw_Student_Lists].[Zip] AS [Zip], 
+      [vw_Student_Lists].[Phone] AS [Phone], 
+      [vw_Student_Lists].[Cell] AS [Cell], 
+      [vw_Student_Lists].[Email] AS [Email], 
+      [vw_Student_Lists].[IsActive] AS [IsActive], 
+      [vw_Student_Lists].[CreatedDate] AS [CreatedDate], 
+      [vw_Student_Lists].[LastUpdated] AS [LastUpdated], 
+      [vw_Student_Lists].[BranchId] AS [BranchId], 
+      [vw_Student_Lists].[IsBranchActive] AS [IsBranchActive], 
+      [vw_Student_Lists].[Nationality] AS [Nationality], 
+      [vw_Student_Lists].[LeavingDate] AS [LeavingDate], 
+      [vw_Student_Lists].[ClientId] AS [ClientId], 
+      [vw_Student_Lists].[Courses] AS [Courses]
+      FROM [dbo].[vw_Student_Lists] AS [vw_Student_Lists]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_Students" EntityType="VedantaModel.Store.vw_Students" store:Type="Views" store:Schema="dbo" store:Name="vw_Students">
+      <DefiningQuery>SELECT 
+      [vw_Students].[ID] AS [ID], 
+      [vw_Students].[BranchCode] AS [BranchCode], 
+      [vw_Students].[BranchName] AS [BranchName], 
+      [vw_Students].[FirstName] AS [FirstName], 
+      [vw_Students].[LastName] AS [LastName], 
+      [vw_Students].[Gender] AS [Gender], 
+      [vw_Students].[DOB] AS [DOB], 
+      [vw_Students].[Age] AS [Age], 
+      [vw_Students].[MaritalStatusName] AS [MaritalStatusName], 
+      [vw_Students].[FatherName] AS [FatherName], 
+      [vw_Students].[MotherName] AS [MotherName], 
+      [vw_Students].[Street] AS [Street], 
+      [vw_Students].[Street2] AS [Street2], 
+      [vw_Students].[City] AS [City], 
+      [vw_Students].[State] AS [State], 
+      [vw_Students].[Country] AS [Country], 
+      [vw_Students].[Zip] AS [Zip], 
+      [vw_Students].[Phone] AS [Phone], 
+      [vw_Students].[Cell] AS [Cell], 
+      [vw_Students].[Email] AS [Email], 
+      [vw_Students].[IsActive] AS [IsActive], 
+      [vw_Students].[CreatedDate] AS [CreatedDate], 
+      [vw_Students].[LastUpdated] AS [LastUpdated], 
+      [vw_Students].[Mothertoungue] AS [Mothertoungue], 
+      [vw_Students].[PassportNo] AS [PassportNo], 
+      [vw_Students].[PAN] AS [PAN], 
+      [vw_Students].[UIDNo] AS [UIDNo], 
+      [vw_Students].[Occupation] AS [Occupation], 
+      [vw_Students].[IncomeSlot] AS [IncomeSlot], 
+      [vw_Students].[Qualification] AS [Qualification], 
+      [vw_Students].[MiddleName] AS [MiddleName], 
+      [vw_Students].[BranchId] AS [BranchId], 
+      [vw_Students].[Nationality] AS [Nationality], 
+      [vw_Students].[Religion] AS [Religion], 
+      [vw_Students].[NationalityId] AS [NationalityId], 
+      [vw_Students].[ReligionId] AS [ReligionId], 
+      [vw_Students].[StateId] AS [StateId], 
+      [vw_Students].[CountryId] AS [CountryId], 
+      [vw_Students].[RegionalOfficeId] AS [RegionalOfficeId], 
+      [vw_Students].[ZonalOfficeId] AS [ZonalOfficeId], 
+      [vw_Students].[LeavingDate] AS [LeavingDate], 
+      [vw_Students].[ClientId] AS [ClientId], 
+      [vw_Students].[OccupationId] AS [OccupationId], 
+      [vw_Students].[FamilyIncomeSlotId] AS [FamilyIncomeSlotId], 
+      [vw_Students].[QualificationId] AS [QualificationId], 
+      [vw_Students].[IsBranchActive] AS [IsBranchActive]
+      FROM [dbo].[vw_Students] AS [vw_Students]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_Users_Lists" EntityType="VedantaModel.Store.vw_Users_Lists" store:Type="Views" store:Schema="dbo" store:Name="vw_Users_Lists">
+      <DefiningQuery>SELECT 
+      [vw_Users_Lists].[UserId] AS [UserId], 
+      [vw_Users_Lists].[UserName] AS [UserName], 
+      [vw_Users_Lists].[LoweredUserName] AS [LoweredUserName], 
+      [vw_Users_Lists].[MobileAlias] AS [MobileAlias], 
+      [vw_Users_Lists].[IsAnonymous] AS [IsAnonymous], 
+      [vw_Users_Lists].[LastActivityDate] AS [LastActivityDate], 
+      [vw_Users_Lists].[RoleId] AS [RoleId], 
+      [vw_Users_Lists].[RoleName] AS [RoleName], 
+      [vw_Users_Lists].[LoweredRoleName] AS [LoweredRoleName], 
+      [vw_Users_Lists].[Description] AS [Description], 
+      [vw_Users_Lists].[EmployeeId] AS [EmployeeId], 
+      [vw_Users_Lists].[FirstName] AS [FirstName], 
+      [vw_Users_Lists].[MiddleName] AS [MiddleName], 
+      [vw_Users_Lists].[LastName] AS [LastName], 
+      [vw_Users_Lists].[RankName] AS [RankName], 
+      [vw_Users_Lists].[BranchId] AS [BranchId], 
+      [vw_Users_Lists].[BranchName] AS [BranchName], 
+      [vw_Users_Lists].[RegionName] AS [RegionName], 
+      [vw_Users_Lists].[ZoneName] AS [ZoneName], 
+      [vw_Users_Lists].[RegionId] AS [RegionId], 
+      [vw_Users_Lists].[ZoneId] AS [ZoneId], 
+      [vw_Users_Lists].[IsRegionActive] AS [IsRegionActive], 
+      [vw_Users_Lists].[IsZoneActive] AS [IsZoneActive], 
+      [vw_Users_Lists].[EmployeesRankId] AS [EmployeesRankId], 
+      [vw_Users_Lists].[ApplicationId] AS [ApplicationId], 
+      [vw_Users_Lists].[Email] AS [Email], 
+      [vw_Users_Lists].[LoweredEmail] AS [LoweredEmail], 
+      [vw_Users_Lists].[IsApproved] AS [IsApproved], 
+      [vw_Users_Lists].[IsLockedOut] AS [IsLockedOut], 
+      [vw_Users_Lists].[CreateDate] AS [CreateDate], 
+      [vw_Users_Lists].[LastLoginDate] AS [LastLoginDate], 
+      [vw_Users_Lists].[FailedPasswordAttemptCount] AS [FailedPasswordAttemptCount], 
+      [vw_Users_Lists].[LastPasswordChangedDate] AS [LastPasswordChangedDate], 
+      [vw_Users_Lists].[LastLockoutDate] AS [LastLockoutDate], 
+      [vw_Users_Lists].[ClientId] AS [ClientId], 
+      [vw_Users_Lists].[Name] AS [Name], 
+      [vw_Users_Lists].[Lane] AS [Lane], 
+      [vw_Users_Lists].[Street] AS [Street], 
+      [vw_Users_Lists].[City] AS [City], 
+      [vw_Users_Lists].[Zip] AS [Zip], 
+      [vw_Users_Lists].[ClientEmail] AS [ClientEmail], 
+      [vw_Users_Lists].[Website] AS [Website], 
+      [vw_Users_Lists].[ContractStartDate] AS [ContractStartDate], 
+      [vw_Users_Lists].[ContractEndDate] AS [ContractEndDate], 
+      [vw_Users_Lists].[StateName] AS [StateName], 
+      [vw_Users_Lists].[CountryName] AS [CountryName], 
+      [vw_Users_Lists].[Cell] AS [Cell], 
+      [vw_Users_Lists].[IsBranchActive] AS [IsBranchActive], 
+      [vw_Users_Lists].[IsClientActive] AS [IsClientActive]
+      FROM [dbo].[vw_Users_Lists] AS [vw_Users_Lists]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_ZonalOffices" EntityType="VedantaModel.Store.vw_ZonalOffices" store:Type="Views" store:Schema="dbo" store:Name="vw_ZonalOffices">
+      <DefiningQuery>SELECT 
+      [vw_ZonalOffices].[Id] AS [Id], 
+      [vw_ZonalOffices].[ZoneName] AS [ZoneName], 
+      [vw_ZonalOffices].[Address] AS [Address], 
+      [vw_ZonalOffices].[Address2] AS [Address2], 
+      [vw_ZonalOffices].[City] AS [City], 
+      [vw_ZonalOffices].[PIN] AS [PIN], 
+      [vw_ZonalOffices].[State] AS [State], 
+      [vw_ZonalOffices].[Country] AS [Country], 
+      [vw_ZonalOffices].[Phone] AS [Phone], 
+      [vw_ZonalOffices].[Mobile] AS [Mobile], 
+      [vw_ZonalOffices].[Email] AS [Email], 
+      [vw_ZonalOffices].[Fax] AS [Fax], 
+      [vw_ZonalOffices].[Website] AS [Website], 
+      [vw_ZonalOffices].[Remarks] AS [Remarks], 
+      [vw_ZonalOffices].[CreatedDate] AS [CreatedDate], 
+      [vw_ZonalOffices].[LastUpdatedDate] AS [LastUpdatedDate], 
+      [vw_ZonalOffices].[IsActive] AS [IsActive], 
+      [vw_ZonalOffices].[ClosingDate] AS [ClosingDate], 
+      [vw_ZonalOffices].[ClientId] AS [ClientId]
+      FROM [dbo].[vw_ZonalOffices] AS [vw_ZonalOffices]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK__aspnet_Me__Appli__10216507" Association="VedantaModel.Store.FK__aspnet_Me__Appli__10216507">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Membership" EntitySet="aspnet_Membership" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Me__Appli__21B6055D" Association="VedantaModel.Store.FK__aspnet_Me__Appli__21B6055D">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Membership" EntitySet="aspnet_Membership" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Me__UserI__11158940" Association="VedantaModel.Store.FK__aspnet_Me__UserI__11158940">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_Membership" EntitySet="aspnet_Membership" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Me__UserI__22AA2996" Association="VedantaModel.Store.FK__aspnet_Me__UserI__22AA2996">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_Membership" EntitySet="aspnet_Membership" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pa__Appli__0B5CAFEA" Association="VedantaModel.Store.FK__aspnet_Pa__Appli__0B5CAFEA">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Paths" EntitySet="aspnet_Paths" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pa__Appli__5AEE82B9" Association="VedantaModel.Store.FK__aspnet_Pa__Appli__5AEE82B9">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Paths" EntitySet="aspnet_Paths" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pe__PathI__0D44F85C" Association="VedantaModel.Store.FK__aspnet_Pe__PathI__0D44F85C">
+      <End Role="aspnet_Paths" EntitySet="aspnet_Paths" />
+      <End Role="aspnet_PersonalizationPerUser" EntitySet="aspnet_PersonalizationPerUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pe__PathI__1209AD79" Association="VedantaModel.Store.FK__aspnet_Pe__PathI__1209AD79">
+      <End Role="aspnet_Paths" EntitySet="aspnet_Paths" />
+      <End Role="aspnet_PersonalizationAllUsers" EntitySet="aspnet_PersonalizationAllUsers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pe__PathI__628FA481" Association="VedantaModel.Store.FK__aspnet_Pe__PathI__628FA481">
+      <End Role="aspnet_Paths" EntitySet="aspnet_Paths" />
+      <End Role="aspnet_PersonalizationAllUsers" EntitySet="aspnet_PersonalizationAllUsers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pe__PathI__68487DD7" Association="VedantaModel.Store.FK__aspnet_Pe__PathI__68487DD7">
+      <End Role="aspnet_Paths" EntitySet="aspnet_Paths" />
+      <End Role="aspnet_PersonalizationPerUser" EntitySet="aspnet_PersonalizationPerUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pe__UserI__0E391C95" Association="VedantaModel.Store.FK__aspnet_Pe__UserI__0E391C95">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_PersonalizationPerUser" EntitySet="aspnet_PersonalizationPerUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pe__UserI__693CA210" Association="VedantaModel.Store.FK__aspnet_Pe__UserI__693CA210">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_PersonalizationPerUser" EntitySet="aspnet_PersonalizationPerUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pr__UserI__0F2D40CE" Association="VedantaModel.Store.FK__aspnet_Pr__UserI__0F2D40CE">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_Profile" EntitySet="aspnet_Profile" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pr__UserI__38996AB5" Association="VedantaModel.Store.FK__aspnet_Pr__UserI__38996AB5">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_Profile" EntitySet="aspnet_Profile" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Ro__Appli__0C50D423" Association="VedantaModel.Store.FK__aspnet_Ro__Appli__0C50D423">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Roles" EntitySet="aspnet_Roles" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Ro__Appli__440B1D61" Association="VedantaModel.Store.FK__aspnet_Ro__Appli__440B1D61">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Roles" EntitySet="aspnet_Roles" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Us__Appli__0A688BB1" Association="VedantaModel.Store.FK__aspnet_Us__Appli__0A688BB1">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Us__Appli__0DAF0CB0" Association="VedantaModel.Store.FK__aspnet_Us__Appli__0DAF0CB0">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Us__RoleI__12FDD1B2" Association="VedantaModel.Store.FK__aspnet_Us__RoleI__12FDD1B2">
+      <End Role="aspnet_Roles" EntitySet="aspnet_Roles" />
+      <End Role="aspnet_UsersInRoles" EntitySet="aspnet_UsersInRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Us__RoleI__4AB81AF0" Association="VedantaModel.Store.FK__aspnet_Us__RoleI__4AB81AF0">
+      <End Role="aspnet_Roles" EntitySet="aspnet_Roles" />
+      <End Role="aspnet_UsersInRoles" EntitySet="aspnet_UsersInRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Us__UserI__13F1F5EB" Association="VedantaModel.Store.FK__aspnet_Us__UserI__13F1F5EB">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_UsersInRoles" EntitySet="aspnet_UsersInRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Us__UserI__49C3F6B7" Association="VedantaModel.Store.FK__aspnet_Us__UserI__49C3F6B7">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_UsersInRoles" EntitySet="aspnet_UsersInRoles" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Admissions">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="RollNumber" Type="int" />
+    <Property Name="CourseId" Type="int" />
+    <Property Name="StudentId" Type="int" />
+    <Property Name="AdmissionDate" Type="datetime" />
+    <Property Name="BatchId" Type="int" />
+    <Property Name="BatchStartDate" Type="datetime" />
+    <Property Name="BatchEndDate" Type="datetime" />
+    <Property Name="DownPayment" Type="money" />
+    <Property Name="NextPaymentDueDate" Type="datetime" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="MaximumDiscountAmount" Type="money" />
+    <Property Name="RegistrationNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsComputerKnown" Type="bit" />
+    <Property Name="ComputerKnowledgeLevelId" Type="int" />
+    <Property Name="ComputerInterestId" Type="int" />
+    <Property Name="HowToKnowAboutUsId" Type="int" />
+    <Property Name="NeedJobAssistance" Type="bit" />
+    <Property Name="AssociateId" Type="int" />
+    <Property Name="Location" Type="nvarchar" MaxLength="50" />
+    <Property Name="PaymentModeId" Type="int" />
+    <Property Name="ManualReceiptNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar" MaxLength="50" />
+    <Property Name="WillBePaidInInstallment" Type="bit" />
+  </EntityType>
+  <EntityType Name="aspnet_Applications">
+    <Key>
+      <PropertyRef Name="ApplicationId" />
+    </Key>
+    <Property Name="ApplicationName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="LoweredApplicationName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="ApplicationId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="256" />
+  </EntityType>
+  <EntityType Name="aspnet_Membership">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="ApplicationId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="PasswordFormat" Type="int" Nullable="false" />
+    <Property Name="PasswordSalt" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="MobilePIN" Type="nvarchar" MaxLength="16" />
+    <Property Name="Email" Type="nvarchar" MaxLength="256" />
+    <Property Name="LoweredEmail" Type="nvarchar" MaxLength="256" />
+    <Property Name="PasswordQuestion" Type="nvarchar" MaxLength="256" />
+    <Property Name="PasswordAnswer" Type="nvarchar" MaxLength="128" />
+    <Property Name="IsApproved" Type="bit" Nullable="false" />
+    <Property Name="IsLockedOut" Type="bit" Nullable="false" />
+    <Property Name="CreateDate" Type="datetime" Nullable="false" />
+    <Property Name="LastLoginDate" Type="datetime" Nullable="false" />
+    <Property Name="LastPasswordChangedDate" Type="datetime" Nullable="false" />
+    <Property Name="LastLockoutDate" Type="datetime" Nullable="false" />
+    <Property Name="FailedPasswordAttemptCount" Type="int" Nullable="false" />
+    <Property Name="FailedPasswordAttemptWindowStart" Type="datetime" Nullable="false" />
+    <Property Name="FailedPasswordAnswerAttemptCount" Type="int" Nullable="false" />
+    <Property Name="FailedPasswordAnswerAttemptWindowStart" Type="datetime" Nullable="false" />
+    <Property Name="Comment" Type="ntext" />
+  </EntityType>
+  <EntityType Name="aspnet_Paths">
+    <Key>
+      <PropertyRef Name="PathId" />
+    </Key>
+    <Property Name="ApplicationId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="PathId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Path" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="LoweredPath" Type="nvarchar" Nullable="false" MaxLength="256" />
+  </EntityType>
+  <EntityType Name="aspnet_PersonalizationAllUsers">
+    <Key>
+      <PropertyRef Name="PathId" />
+    </Key>
+    <Property Name="PathId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="PageSettings" Type="image" Nullable="false" />
+    <Property Name="LastUpdatedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="aspnet_PersonalizationPerUser">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="PathId" Type="uniqueidentifier" />
+    <Property Name="UserId" Type="uniqueidentifier" />
+    <Property Name="PageSettings" Type="image" Nullable="false" />
+    <Property Name="LastUpdatedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="aspnet_Profile">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="PropertyNames" Type="ntext" Nullable="false" />
+    <Property Name="PropertyValuesString" Type="ntext" Nullable="false" />
+    <Property Name="PropertyValuesBinary" Type="image" Nullable="false" />
+    <Property Name="LastUpdatedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="aspnet_Roles">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="ApplicationId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="RoleId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="RoleName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="LoweredRoleName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="Description" Type="nvarchar" MaxLength="256" />
+  </EntityType>
+  <EntityType Name="aspnet_SchemaVersions">
+    <Key>
+      <PropertyRef Name="Feature" />
+      <PropertyRef Name="CompatibleSchemaVersion" />
+    </Key>
+    <Property Name="Feature" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="CompatibleSchemaVersion" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="IsCurrentVersion" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="aspnet_Users">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="ApplicationId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="LoweredUserName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="MobileAlias" Type="nvarchar" MaxLength="16" />
+    <Property Name="IsAnonymous" Type="bit" Nullable="false" />
+    <Property Name="LastActivityDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="aspnet_UsersInRoles">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="RoleId" Type="uniqueidentifier" Nullable="false" />
+  </EntityType>
+  <EntityType Name="aspnet_WebEvent_Events">
+    <Key>
+      <PropertyRef Name="EventId" />
+    </Key>
+    <Property Name="EventId" Type="char" Nullable="false" MaxLength="32" />
+    <Property Name="EventTimeUtc" Type="datetime" Nullable="false" />
+    <Property Name="EventTime" Type="datetime" Nullable="false" />
+    <Property Name="EventType" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="EventSequence" Type="decimal" Nullable="false" Precision="19" />
+    <Property Name="EventOccurrence" Type="decimal" Nullable="false" Precision="19" />
+    <Property Name="EventCode" Type="int" Nullable="false" />
+    <Property Name="EventDetailCode" Type="int" Nullable="false" />
+    <Property Name="Message" Type="nvarchar" MaxLength="1024" />
+    <Property Name="ApplicationPath" Type="nvarchar" MaxLength="256" />
+    <Property Name="ApplicationVirtualPath" Type="nvarchar" MaxLength="256" />
+    <Property Name="MachineName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="RequestUrl" Type="nvarchar" MaxLength="1024" />
+    <Property Name="ExceptionType" Type="nvarchar" MaxLength="256" />
+    <Property Name="Details" Type="ntext" />
+  </EntityType>
+  <EntityType Name="Assets">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="BranchId" Type="int" />
+    <Property Name="Code" Type="nvarchar" MaxLength="50" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="Quantity" Type="int" />
+    <Property Name="PurchasedDate" Type="datetime" />
+    <Property Name="LastRepaireDate" Type="datetime" />
+    <Property Name="LastAuditDate" Type="datetime" />
+    <Property Name="IsWorking" Type="bit" />
+    <Property Name="WarrantyExpiryDate" Type="datetime" />
+    <Property Name="AMC_Reporesntative" Type="nvarchar" MaxLength="75" />
+    <Property Name="AMC_Address" Type="nvarchar" MaxLength="150" />
+    <Property Name="AMC_Phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="AMC_Email" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="associated_Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Membership_UserId" Type="uniqueidentifier" />
+    <Property Name="EmployeeId" Type="nvarchar" MaxLength="50" />
+    <Property Name="ClientId" Type="int" />
+    <Property Name="BranchId" Type="int" />
+  </EntityType>
+  <EntityType Name="Associates">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="Location" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Batches">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="BranchId" Type="int" />
+    <Property Name="BatchCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="BatchName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="BatchStartTime" Type="time" />
+    <Property Name="BatchEndTime" Type="time" />
+    <Property Name="StudentStrength" Type="int" />
+  </EntityType>
+  <EntityType Name="Branches">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="RegionalOfficeId" Type="int" />
+    <Property Name="ZonalOfficeId" Type="int" />
+    <Property Name="BranchCode" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="BranchName" Type="nvarchar" MaxLength="100" />
+    <Property Name="Address1" Type="nvarchar" MaxLength="150" />
+    <Property Name="Address2" Type="nvarchar" MaxLength="150" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="PIN" Type="nvarchar" MaxLength="7" />
+    <Property Name="StateId" Type="int" />
+    <Property Name="CountryId" Type="int" />
+    <Property Name="Phones" Type="nvarchar" MaxLength="50" />
+    <Property Name="Fax" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="Remarks" Type="nvarchar" MaxLength="300" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="CreatedBy" Type="int" />
+    <Property Name="LastUpdatedDate" Type="datetime" />
+    <Property Name="LastUpdatedBy" Type="int" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="ClosingDate" Type="datetime" />
+    <Property Name="ClientId" Type="int" />
+    <Property Name="Logo" Type="image" />
+    <Property Name="ContentType" Type="nvarchar" MaxLength="50" />
+    <Property Name="BranchTypeId" Type="int" />
+  </EntityType>
+  <EntityType Name="BranchSettings">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="BranchId" Type="int" />
+    <Property Name="IsBusServiceAvailable" Type="bit" />
+    <Property Name="IsHostelServiceAvailable" Type="bit" />
+    <Property Name="IsDebtorCreditotsServiceAvailable" Type="bit" />
+    <Property Name="MaximumNumberOfUsersPerBranch" Type="int" Nullable="false" />
+    <Property Name="MaximumNumberOfCourseBrandsPerBranch" Type="int" Nullable="false" />
+    <Property Name="IsCerificateServiceAvailable" Type="bit" />
+    <Property Name="IsEnquiryServiceAvailable" Type="bit" />
+    <Property Name="IsDemoClassServiceAvailable" Type="bit" />
+    <Property Name="IsJobServiceAvailable" Type="bit" />
+    <Property Name="IsAssetServiceAvailable" Type="bit" />
+    <Property Name="IsOfficeExpenseServiceAvailable" Type="bit" />
+    <Property Name="IsStudyMaterialServiceAvailable" Type="bit" />
+    <Property Name="IsSMSServiceAvailable" Type="bit" />
+    <Property Name="SMSurl" Type="nvarchar" MaxLength="330" />
+    <Property Name="SMSUserId" Type="nvarchar" MaxLength="50" />
+    <Property Name="SMSPwd" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="BranchTypes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Type" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="BulkSMS">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ClientId" Type="int" />
+    <Property Name="BranchId" Type="int" />
+    <Property Name="AdmissionIds" Type="nvarchar(max)" />
+    <Property Name="MobileNumbers" Type="nvarchar(max)" />
+    <Property Name="SMSText" Type="nvarchar" MaxLength="250" />
+    <Property Name="SentBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="RecipientCount" Type="int" />
+    <Property Name="DateSend" Type="datetime" />
+  </EntityType>
+  <EntityType Name="BusinessTypes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ClientRepresentatives">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ClientId" Type="int" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Lane" Type="nvarchar" MaxLength="50" />
+    <Property Name="Street" Type="nvarchar" MaxLength="50" />
+    <Property Name="City" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CountryId" Type="int" />
+    <Property Name="StateId" Type="int" Nullable="false" />
+    <Property Name="Zip" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="Phone" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Extension" Type="nvarchar" MaxLength="10" />
+    <Property Name="Cell" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="Email" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="LasteUpdatedDate" Type="datetime" />
+    <Property Name="UpdatedBy" Type="uniqueidentifier" />
+  </EntityType>
+  <EntityType Name="Clients">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AdminstratorId" Type="int" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Lane" Type="nvarchar" MaxLength="50" />
+    <Property Name="Street" Type="nvarchar" MaxLength="50" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="StateId" Type="int" />
+    <Property Name="CountryId" Type="int" />
+    <Property Name="Zip" Type="nvarchar" MaxLength="10" />
+    <Property Name="Phone1" Type="nvarchar" MaxLength="50" />
+    <Property Name="Phone2" Type="nvarchar" MaxLength="50" />
+    <Property Name="Cell" Type="nvarchar" MaxLength="20" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Website" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContractStartDate" Type="datetime" />
+    <Property Name="ContractEndDate" Type="datetime" />
+    <Property Name="BusinessTypeId" Type="int" />
+    <Property Name="NoOfSchoolsPermitted" Type="int" Nullable="false" />
+    <Property Name="NoOfUsers" Type="int" Nullable="false" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="LastUpdated" Type="datetime" Nullable="false" />
+    <Property Name="UpdatedBy" Type="uniqueidentifier" />
+    <Property Name="Logo" Type="image" />
+    <Property Name="ContentType" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="ClientSettings">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ClientId" Type="int" />
+    <Property Name="IsBusServiceAvailable" Type="bit" />
+    <Property Name="IsHostelServiceAvailable" Type="bit" />
+    <Property Name="IsDebtorCreditotsServiceAvailable" Type="bit" />
+    <Property Name="MaximumNumberOfUsersPerSchool" Type="int" Nullable="false" />
+    <Property Name="MaximumNumberOfCourseBrandsPerSchool" Type="int" Nullable="false" />
+    <Property Name="IsCerificateServiceAvailable" Type="bit" />
+    <Property Name="IsEnquiryServiceAvailable" Type="bit" />
+    <Property Name="IsDemoClassServiceAvailable" Type="bit" />
+    <Property Name="IsJobServiceAvailable" Type="bit" />
+    <Property Name="IsAssetServiceAvailable" Type="bit" />
+    <Property Name="IsOfficeExpenseServiceAvailable" Type="bit" />
+    <Property Name="IsStudyMaterialServiceAvailable" Type="bit" />
+    <Property Name="CanSeeFrenchisesAccount" Type="bit" />
+    <Property Name="IsSMSServiceAvailable" Type="bit" />
+    <Property Name="SMSurl" Type="nvarchar" MaxLength="330" />
+    <Property Name="SMSUserId" Type="nvarchar" MaxLength="50" />
+    <Property Name="SMSPwd" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsEducationServiceAvailable" Type="bit" />
+  </EntityType>
+  <EntityType Name="ComputerInterests">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="InterestName" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="ComputerKnowledgeLevels">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="LevelName" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Countries">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="Code" Type="char" MaxLength="2" />
+  </EntityType>
+  <EntityType Name="CourseBrands">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="BranchId" Type="int" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="BoardUniversityName" Type="nvarchar" MaxLength="100" />
+    <Property Name="RepresentativeName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Street1" Type="nvarchar" MaxLength="100" />
+    <Property Name="Street2" Type="nvarchar" MaxLength="100" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="StateId" Type="int" />
+    <Property Name="ZIP" Type="nvarchar" MaxLength="7" />
+  </EntityType>
+  <EntityType Name="CourseMaterials">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CourseId" Type="int" />
+    <Property Name="ItemCode" Type="nvarchar" Nullable="false" MaxLength="25" />
+    <Property Name="ItemName" Type="nvarchar" MaxLength="100" />
+    <Property Name="Quantity" Type="int" />
+  </EntityType>
+  <EntityType Name="Courses">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CourseCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="CourseName" Type="nvarchar" MaxLength="100" />
+    <Property Name="Duration_In_Months" Type="int" />
+    <Property Name="FastTrackDuration" Type="decimal" Scale="2" />
+    <Property Name="CourseFees" Type="money" />
+    <Property Name="MinimumDownPayment" Type="money" />
+    <Property Name="MaximumDiscountAmount" Type="money" />
+    <Property Name="MaximumNumberOfInstallments" Type="int" />
+    <Property Name="InstallmentAmount" Type="money" />
+    <Property Name="TotalInstallmentAmount" Type="money" />
+    <Property Name="CourseBrandId" Type="int" />
+    <Property Name="ClientId" Type="int" />
+  </EntityType>
+  <EntityType Name="CreditorBills">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CreditorId" Type="int" Nullable="false" />
+    <Property Name="BillInvoiceNumber" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="BillDate" Type="datetime" Nullable="false" />
+    <Property Name="DateOfBillSubmmission" Type="datetime" Nullable="false" />
+    <Property Name="BillDueDate" Type="datetime" Nullable="false" />
+    <Property Name="Amount" Type="money" Nullable="false" />
+    <Property Name="MinimumPayableAmount" Type="money" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Creditors">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SchoolId" Type="int" Nullable="false" />
+    <Property Name="CreditorCode" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="RepresentativeName" Type="nvarchar" MaxLength="50" />
+    <Property Name="CompanyName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Street" Type="nvarchar" MaxLength="50" />
+    <Property Name="Street2" Type="nvarchar" MaxLength="50" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="StateId" Type="int" />
+    <Property Name="CountryId" Type="int" />
+    <Property Name="Zip" Type="nvarchar" MaxLength="7" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="15" />
+    <Property Name="Mobile" Type="nvarchar" MaxLength="15" />
+    <Property Name="RepresaentativePhone" Type="nvarchar" MaxLength="15" />
+    <Property Name="RepresentativeMobile" Type="nvarchar" MaxLength="15" />
+    <Property Name="Fax" Type="nvarchar" MaxLength="15" />
+    <Property Name="CompanyEmail" Type="nvarchar" MaxLength="50" />
+    <Property Name="RepresentativeEmail" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="LastUpdated" Type="datetime" />
+  </EntityType>
+  <EntityType Name="DebtorBills">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DebtorId" Type="int" Nullable="false" />
+    <Property Name="BillInvoiceNumber" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="BillDate" Type="datetime" Nullable="false" />
+    <Property Name="DateOfBillSubmmission" Type="datetime" Nullable="false" />
+    <Property Name="BillDueDate" Type="datetime" Nullable="false" />
+    <Property Name="Amount" Type="money" Nullable="false" />
+    <Property Name="MinimumPayableAmount" Type="money" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Debtors">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SchoolId" Type="int" Nullable="false" />
+    <Property Name="DebtorsCode" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="RepresentativeName" Type="nvarchar" MaxLength="50" />
+    <Property Name="CompanyName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Street" Type="nvarchar" MaxLength="50" />
+    <Property Name="Street2" Type="nvarchar" MaxLength="50" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="StateId" Type="int" />
+    <Property Name="CountryId" Type="int" />
+    <Property Name="Zip" Type="nvarchar" MaxLength="7" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="15" />
+    <Property Name="Mobile" Type="nvarchar" MaxLength="15" />
+    <Property Name="RepresaentativePhone" Type="nvarchar" MaxLength="15" />
+    <Property Name="RepresentativeMobile" Type="nvarchar" MaxLength="15" />
+    <Property Name="Fax" Type="nvarchar" MaxLength="15" />
+    <Property Name="CompanyEmail" Type="nvarchar" MaxLength="50" />
+    <Property Name="RepresentativeEmail" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="LastUpdated" Type="datetime" />
+  </EntityType>
+  <EntityType Name="EmployeePermanentContacts">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="EmployeeId" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Street" Type="nvarchar" MaxLength="100" />
+    <Property Name="Street2" Type="nvarchar" MaxLength="100" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="StateId" Type="int" />
+    <Property Name="CountryId" Type="int" />
+    <Property Name="Zip" Type="nvarchar" MaxLength="50" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="15" />
+    <Property Name="Mobile" Type="nvarchar" MaxLength="15" />
+    <Property Name="EmergencyNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="LastUpdated" Type="datetime" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EmployeePresentContacts">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="EmployeeId" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="BranchIdId" Type="int" Nullable="false" />
+    <Property Name="Street" Type="nvarchar" MaxLength="100" />
+    <Property Name="Street2" Type="nvarchar" MaxLength="100" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="StateId" Type="int" />
+    <Property Name="CountryId" Type="int" />
+    <Property Name="Zip" Type="nvarchar" MaxLength="50" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="15" />
+    <Property Name="Mobile" Type="nvarchar" MaxLength="15" />
+    <Property Name="EmergencyNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="LastUpdated" Type="datetime" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EmployeeRanks">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="RankName" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Employees">
+    <Key>
+      <PropertyRef Name="EmployeeId" />
+    </Key>
+    <Property Name="EmployeeId" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="BranchId" Type="int" />
+    <Property Name="RegionId" Type="int" />
+    <Property Name="ZoneId" Type="int" />
+    <Property Name="EmployeesRankId" Type="int" />
+    <Property Name="FirstName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="MiddleName" Type="nvarchar" MaxLength="50" />
+    <Property Name="LastName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DOB" Type="datetime" Nullable="false" />
+    <Property Name="MaritalStatusId" Type="int" Nullable="false" />
+    <Property Name="Gender" Type="int" Nullable="false" />
+    <Property Name="QualificationId" Type="int" />
+    <Property Name="FatherName" Type="nvarchar" MaxLength="100" />
+    <Property Name="MotherName" Type="nvarchar" MaxLength="100" />
+    <Property Name="Street" Type="nvarchar" MaxLength="100" />
+    <Property Name="Street2" Type="nvarchar" MaxLength="100" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="StateId" Type="int" />
+    <Property Name="Zip" Type="nvarchar" MaxLength="50" />
+    <Property Name="CountryId" Type="int" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="15" />
+    <Property Name="Mobile" Type="nvarchar" MaxLength="15" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="Image" Type="image" />
+    <Property Name="ImageType" Type="nvarchar" MaxLength="4" />
+    <Property Name="LeavingDate" Type="datetime" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="LastUpdated" Type="datetime" />
+    <Property Name="PassportNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="PAN" Type="nvarchar" MaxLength="50" />
+    <Property Name="UIDNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="ClientId" Type="int" />
+    <Property Name="JoiningDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Enquiries">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="BranchId" Type="int" />
+    <Property Name="EnquiryDate" Type="date" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="50" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="50" />
+    <Property Name="MiddleName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Street" Type="nvarchar" MaxLength="100" />
+    <Property Name="Street2" Type="nvarchar" MaxLength="100" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="State" Type="int" />
+    <Property Name="Cell" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="120" />
+    <Property Name="NextDate" Type="date" />
+    <Property Name="CourseId" Type="int" />
+    <Property Name="Description" Type="nvarchar" MaxLength="300" />
+    <Property Name="IsClosed" Type="bit" />
+    <Property Name="IsConvertedToAdmission" Type="bit" />
+  </EntityType>
+  <EntityType Name="EnquiryFollowUps">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="EnquiryId" Type="int" />
+    <Property Name="FollowUpDate" Type="date" />
+    <Property Name="Remarks" Type="nvarchar" MaxLength="100" />
+    <Property Name="NextDate" Type="date" />
+  </EntityType>
+  <EntityType Name="EXPENSESHEAD">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CODE" Type="nvarchar" MaxLength="3" />
+    <Property Name="NAME" Type="nvarchar" MaxLength="30" />
+    <Property Name="LedgerTypeId" Type="int" />
+    <Property Name="OP_BAL" Type="float" />
+    <Property Name="ClientId" Type="int" />
+  </EntityType>
+  <EntityType Name="FamilyIncomeSlots">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="IncomeSlot" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="FeeCollections">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AdmissionId" Type="int" Nullable="false" />
+    <Property Name="PaymentHeadId" Type="int" Nullable="false" />
+    <Property Name="PaymentDate" Type="datetime" />
+    <Property Name="PaymentModeId" Type="int" />
+    <Property Name="Amount" Type="money" />
+    <Property Name="Description" Type="nvarchar" MaxLength="300" />
+    <Property Name="ManualreceiptNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="InstallmentStructureId" Type="int" />
+    <Property Name="LateFine" Type="money" />
+    <Property Name="TotalReceived" Type="money" />
+  </EntityType>
+  <EntityType Name="Genders">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Gender" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="HowToKnowAboutUs">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TypeName" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="InstallmentStructures">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AdmissionId" Type="int" />
+    <Property Name="InstallmentNo" Type="int" />
+    <Property Name="Amount" Type="money" />
+    <Property Name="DueDate" Type="datetime" />
+    <Property Name="IsPaid" Type="bit" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="LedgerTypes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Type" Type="nvarchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="MaritalStatus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MaritalStatusName" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Nationality">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Occupations">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="PaymentHeads">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PaymentHead" Type="nvarchar" MaxLength="70" />
+  </EntityType>
+  <EntityType Name="PaymentModes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Mode" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Payments">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="BranchId" Type="int" Nullable="false" />
+    <Property Name="VoucherNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="PaidTo" Type="nvarchar" MaxLength="100" />
+    <Property Name="PaymentModeId" Type="int" />
+    <Property Name="ExpenseHeadId" Type="int" Nullable="false" />
+    <Property Name="Amounts" Type="money" Nullable="false" />
+    <Property Name="Narration" Type="nvarchar" MaxLength="300" />
+    <Property Name="CHQ_NO" Type="nvarchar" MaxLength="50" />
+    <Property Name="CHQ_DATE" Type="datetime" />
+    <Property Name="BANK" Type="nvarchar" MaxLength="100" />
+    <Property Name="Remarks" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Qualifications">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Qualification" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="RegionalOffices">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ZonalOfficeId" Type="int" />
+    <Property Name="RegionName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Address" Type="nvarchar" MaxLength="100" />
+    <Property Name="Address2" Type="nvarchar" MaxLength="100" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="PIN" Type="nvarchar" MaxLength="7" />
+    <Property Name="StateId" Type="int" />
+    <Property Name="CountryId" Type="int" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mobile" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="Fax" Type="nvarchar" MaxLength="50" />
+    <Property Name="Website" Type="nvarchar" MaxLength="100" />
+    <Property Name="Remarks" Type="nvarchar" MaxLength="300" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="LastUpdatedDate" Type="datetime" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="ClosingDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Religions">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="SMSNotices">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AdmissionId" Type="int" />
+    <Property Name="MobileNumber" Type="nvarchar" MaxLength="10" />
+    <Property Name="SMSText" Type="nvarchar" MaxLength="250" />
+    <Property Name="DateSend" Type="datetime" />
+    <Property Name="SentBy" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="States">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CountryId" Type="int" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Code" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Students">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="BranchId" Type="int" />
+    <Property Name="FirstName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="MiddleName" Type="nvarchar" MaxLength="50" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Gender" Type="int" Nullable="false" />
+    <Property Name="DOB" Type="datetime" />
+    <Property Name="Age" Type="int" />
+    <Property Name="MaritalStatusId" Type="int" Nullable="false" />
+    <Property Name="FatherName" Type="nvarchar" MaxLength="100" />
+    <Property Name="MotherName" Type="nvarchar" MaxLength="100" />
+    <Property Name="Street" Type="nvarchar" MaxLength="100" />
+    <Property Name="Street2" Type="nvarchar" MaxLength="100" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="StateId" Type="int" />
+    <Property Name="Zip" Type="nvarchar" MaxLength="50" />
+    <Property Name="CountryId" Type="int" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="15" />
+    <Property Name="Cell" Type="nvarchar" MaxLength="15" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="Image" Type="image" />
+    <Property Name="ImageType" Type="nvarchar" MaxLength="50" />
+    <Property Name="LeavingDate" Type="datetime" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="LastUpdated" Type="datetime" />
+    <Property Name="NationalityId" Type="int" />
+    <Property Name="ReligionId" Type="int" />
+    <Property Name="Mothertoungue" Type="nvarchar" MaxLength="50" />
+    <Property Name="PassportNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="PAN" Type="nvarchar" MaxLength="50" />
+    <Property Name="UIDNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="OccupationId" Type="int" />
+    <Property Name="FamilyIncomeSlotId" Type="int" />
+    <Property Name="QualificationId" Type="int" />
+  </EntityType>
+  <EntityType Name="ZonalOfices">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ZoneName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Address" Type="nvarchar" MaxLength="100" />
+    <Property Name="Address2" Type="nvarchar" MaxLength="100" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="PIN" Type="nvarchar" MaxLength="7" />
+    <Property Name="StateId" Type="int" />
+    <Property Name="CountryId" Type="int" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mobile" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="Fax" Type="nvarchar" MaxLength="50" />
+    <Property Name="Website" Type="nvarchar" MaxLength="100" />
+    <Property Name="Remarks" Type="nvarchar" MaxLength="300" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="LastUpdatedDate" Type="datetime" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="ClosingDate" Type="datetime" />
+    <Property Name="ClientId" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'gbrs_01.dbo.Vw_AccountSummaryBranchWise' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="Vw_AccountSummaryBranchWise">
+    <Key>
+      <PropertyRef Name="ClientId" />
+    </Key>
+    <Property Name="ClientId" Type="int" Nullable="false" />
+    <Property Name="BranchId" Type="int" />
+    <Property Name="BranchName" Type="nvarchar" MaxLength="100" />
+    <Property Name="Expense" Type="money" />
+    <Property Name="income" Type="money" />
+    <Property Name="Date" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'gbrs_01.dbo.vw_Admissions' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_Admissions">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Expr1" />
+      <PropertyRef Name="BranchCode" />
+      <PropertyRef Name="FirstName" />
+      <PropertyRef Name="Gender" />
+      <PropertyRef Name="MaritalStatusName" />
+      <PropertyRef Name="PaymentMode" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="RollNumber" Type="int" />
+    <Property Name="CourseCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="CourseName" Type="nvarchar" MaxLength="100" />
+    <Property Name="Duration_In_Months" Type="int" />
+    <Property Name="CourseFees" Type="money" />
+    <Property Name="AdmissionDate" Type="datetime" />
+    <Property Name="BatchCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="BatchName" Type="nvarchar" MaxLength="50" />
+    <Property Name="BatchStartDate" Type="datetime" />
+    <Property Name="BatchEndDate" Type="datetime" />
+    <Property Name="DownPayment" Type="money" />
+    <Property Name="NextPaymentDueDate" Type="datetime" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="MaximumDiscountAmount" Type="money" />
+    <Property Name="RegistrationNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsComputerKnown" Type="bit" />
+    <Property Name="ComputerKnoledgeLevel" Type="nvarchar" MaxLength="50" />
+    <Property Name="ComputerInterestName" Type="nvarchar" MaxLength="150" />
+    <Property Name="HowToKnowAboutUs" Type="nvarchar" MaxLength="100" />
+    <Property Name="Location" Type="nvarchar" MaxLength="50" />
+    <Property Name="BatchStartTime" Type="time" />
+    <Property Name="BatchEndTime" Type="time" />
+    <Property Name="StudentId" Type="int" />
+    <Property Name="CourseId" Type="int" />
+    <Property Name="NeedJobAssistance" Type="bit" />
+    <Property Name="Expr1" Type="int" Nullable="false" />
+    <Property Name="BranchCode" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="BranchName" Type="nvarchar" MaxLength="100" />
+    <Property Name="FirstName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="50" />
+    <Property Name="MiddleName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Qualification" Type="nvarchar" MaxLength="50" />
+    <Property Name="Gender" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DOB" Type="datetime" />
+    <Property Name="Age" Type="int" />
+    <Property Name="MaritalStatusName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FatherName" Type="nvarchar" MaxLength="100" />
+    <Property Name="MotherName" Type="nvarchar" MaxLength="100" />
+    <Property Name="Street" Type="nvarchar" MaxLength="100" />
+    <Property Name="Street2" Type="nvarchar" MaxLength="100" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="State" Type="nvarchar" MaxLength="50" />
+    <Property Name="Country" Type="varchar" MaxLength="50" />
+    <Property Name="Zip" Type="nvarchar" MaxLength="50" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="15" />
+    <Property Name="Cell" Type="nvarchar" MaxLength="15" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="IsStudentActive" Type="bit" />
+    <Property Name="Mothertoungue" Type="nvarchar" MaxLength="50" />
+    <Property Name="PassportNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="PAN" Type="nvarchar" MaxLength="50" />
+    <Property Name="UIDNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="Occupation" Type="nvarchar" MaxLength="100" />
+    <Property Name="IncomeSlot" Type="nvarchar" MaxLength="50" />
+    <Property Name="BranchId" Type="int" />
+    <Property Name="Nationality" Type="nvarchar" MaxLength="50" />
+    <Property Name="Religion" Type="nvarchar" MaxLength="50" />
+    <Property Name="NationalityId" Type="int" />
+    <Property Name="ReligionId" Type="int" />
+    <Property Name="StateId" Type="int" />
+    <Property Name="CountryId" Type="int" />
+    <Property Name="FeeCollected" Type="money" />
+    <Property Name="TotalInstallmentAmount" Type="money" />
+    <Property Name="RegionalOfficeId" Type="int" />
+    <Property Name="ZonalOfficeId" Type="int" />
+    <Property Name="BatchId" Type="int" />
+    <Property Name="PaymentModeId" Type="int" />
+    <Property Name="ManualReceiptNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="PaymentMode" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar" MaxLength="50" />
+    <Property Name="LeavingDate" Type="datetime" />
+    <Property Name="ClientId" Type="int" />
+    <Property Name="WillBePaidInInstallment" Type="bit" />
+    <Property Name="IsBranchActive" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'gbrs_01.dbo.vw_aspnet_Applications' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_aspnet_Applications">
+    <Key>
+      <PropertyRef Name="ApplicationName" />
+      <PropertyRef Name="LoweredApplicationName" />
+      <PropertyRef Name="ApplicationId" />
+    </Key>
+    <Property Name="ApplicationName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="LoweredApplicationName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="ApplicationId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="256" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'gbrs_01.dbo.vw_aspnet_MembershipUsers' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_aspnet_MembershipUsers">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="PasswordFormat" />
+      <PropertyRef Name="IsApproved" />
+      <PropertyRef Name="IsLockedOut" />
+      <PropertyRef Name="CreateDate" />
+      <PropertyRef Name="LastLoginDate" />
+      <PropertyRef Name="LastPasswordChangedDate" />
+      <PropertyRef Name="LastLockoutDate" />
+      <PropertyRef Name="FailedPasswordAttemptCount" />
+      <PropertyRef Name="FailedPasswordAttemptWindowStart" />
+      <PropertyRef Name="FailedPasswordAnswerAttemptCount" />
+      <PropertyRef Name="FailedPasswordAnswerAttemptWindowStart" />
+      <PropertyRef Name="ApplicationId" />
+      <PropertyRef Name="UserName" />
+      <PropertyRef Name="IsAnonymous" />
+      <PropertyRef Name="LastActivityDate" />
+    </Key>
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="PasswordFormat" Type="int" Nullable="false" />
+    <Property Name="MobilePIN" Type="nvarchar" MaxLength="16" />
+    <Property Name="Email" Type="nvarchar" MaxLength="256" />
+    <Property Name="LoweredEmail" Type="nvarchar" MaxLength="256" />
+    <Property Name="PasswordQuestion" Type="nvarchar" MaxLength="256" />
+    <Property Name="PasswordAnswer" Type="nvarchar" MaxLength="128" />
+    <Property Name="IsApproved" Type="bit" Nullable="false" />
+    <Property Name="IsLockedOut" Type="bit" Nullable="false" />
+    <Property Name="CreateDate" Type="datetime" Nullable="false" />
+    <Property Name="LastLoginDate" Type="datetime" Nullable="false" />
+    <Property Name="LastPasswordChangedDate" Type="datetime" Nullable="false" />
+    <Property Name="LastLockoutDate" Type="datetime" Nullable="false" />
+    <Property Name="FailedPasswordAttemptCount" Type="int" Nullable="false" />
+    <Property Name="FailedPasswordAttemptWindowStart" Type="datetime" Nullable="false" />
+    <Property Name="FailedPasswordAnswerAttemptCount" Type="int" Nullable="false" />
+    <Property Name="FailedPasswordAnswerAttemptWindowStart" Type="datetime" Nullable="false" />
+    <Property Name="Comment" Type="ntext" />
+    <Property Name="ApplicationId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="MobileAlias" Type="nvarchar" MaxLength="16" />
+    <Property Name="IsAnonymous" Type="bit" Nullable="false" />
+    <Property Name="LastActivityDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'gbrs_01.dbo.vw_aspnet_Profiles' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_aspnet_Profiles">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="LastUpdatedDate" />
+    </Key>
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="LastUpdatedDate" Type="datetime" Nullable="false" />
+    <Property Name="DataSize" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'gbrs_01.dbo.vw_aspnet_Roles' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_aspnet_Roles">
+    <Key>
+      <PropertyRef Name="ApplicationId" />
+      <PropertyRef Name="RoleId" />
+      <PropertyRef Name="RoleName" />
+      <PropertyRef Name="LoweredRoleName" />
+    </Key>
+    <Property Name="ApplicationId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="RoleId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="RoleName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="LoweredRoleName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="Description" Type="nvarchar" MaxLength="256" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'gbrs_01.dbo.vw_aspnet_Users' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_aspnet_Users">
+    <Key>
+      <PropertyRef Name="ApplicationId" />
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="UserName" />
+      <PropertyRef Name="LoweredUserName" />
+      <PropertyRef Name="IsAnonymous" />
+      <PropertyRef Name="LastActivityDate" />
+    </Key>
+    <Property Name="ApplicationId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="LoweredUserName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="MobileAlias" Type="nvarchar" MaxLength="16" />
+    <Property Name="IsAnonymous" Type="bit" Nullable="false" />
+    <Property Name="LastActivityDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'gbrs_01.dbo.vw_aspnet_UsersInRoles' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_aspnet_UsersInRoles">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="RoleId" Type="uniqueidentifier" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'gbrs_01.dbo.vw_aspnet_WebPartState_Paths' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_aspnet_WebPartState_Paths">
+    <Key>
+      <PropertyRef Name="ApplicationId" />
+      <PropertyRef Name="PathId" />
+      <PropertyRef Name="Path" />
+      <PropertyRef Name="LoweredPath" />
+    </Key>
+    <Property Name="ApplicationId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="PathId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Path" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="LoweredPath" Type="nvarchar" Nullable="false" MaxLength="256" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'gbrs_01.dbo.vw_aspnet_WebPartState_Shared' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_aspnet_WebPartState_Shared">
+    <Key>
+      <PropertyRef Name="PathId" />
+      <PropertyRef Name="LastUpdatedDate" />
+    </Key>
+    <Property Name="PathId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="DataSize" Type="int" />
+    <Property Name="LastUpdatedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'gbrs_01.dbo.vw_aspnet_WebPartState_User' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_aspnet_WebPartState_User">
+    <Key>
+      <PropertyRef Name="LastUpdatedDate" />
+    </Key>
+    <Property Name="PathId" Type="uniqueidentifier" />
+    <Property Name="UserId" Type="uniqueidentifier" />
+    <Property Name="DataSize" Type="int" />
+    <Property Name="LastUpdatedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'gbrs_01.dbo.vw_AssetList' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_AssetList">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="BranchCode" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Code" Type="nvarchar" MaxLength="50" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="Quantity" Type="int" />
+    <Property Name="PurchasedDate" Type="datetime" />
+    <Property Name="LastRepaireDate" Type="datetime" />
+    <Property Name="LastAuditDate" Type="datetime" />
+    <Property Name="IsWorking" Type="bit" />
+    <Property Name="BranchName" Type="nvarchar" MaxLength="100" />
+    <Property Name="BranchId" Type="int" />
+    <Property Name="RegionalOfficeId" Type="int" />
+    <Property Name="ZonalOfficeId" Type="int" />
+    <Property Name="BranchCode" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ClientId" Type="int" />
+    <Property Name="WarrantyExpiryDate" Type="datetime" />
+    <Property Name="AMC_Reporesntative" Type="nvarchar" MaxLength="75" />
+    <Property Name="AMC_Address" Type="nvarchar" MaxLength="150" />
+    <Property Name="AMC_Phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="AMC_Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="IsBranchActive" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'gbrs_01.dbo.vw_BatchList' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_BatchList">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="BatchName" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="BranchId" Type="int" />
+    <Property Name="BatchCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="BatchName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="BatchStartTime" Type="time" />
+    <Property Name="BatchEndTime" Type="time" />
+    <Property Name="StudentStrength" Type="int" />
+    <Property Name="RegionalOfficeId" Type="int" />
+    <Property Name="ZonalOfficeId" Type="int" />
+    <Property Name="BranchCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="BranchName" Type="nvarchar" MaxLength="100" />
+    <Property Name="ClientId" Type="int" />
+    <Property Name="StudentCount" Type="int" />
+    <Property Name="IsBranchActive" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'gbrs_01.dbo.vw_Branches' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_Branches">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="BranchCode" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="BranchCode" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="BranchName" Type="nvarchar" MaxLength="100" />
+    <Property Name="Address1" Type="nvarchar" MaxLength="150" />
+    <Property Name="Address2" Type="nvarchar" MaxLength="150" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="State" Type="nvarchar" MaxLength="50" />
+    <Property Name="Country" Type="varchar" MaxLength="50" />
+    <Property Name="PIN" Type="nvarchar" MaxLength="7" />
+    <Property Name="Phones" Type="nvarchar" MaxLength="50" />
+    <Property Name="Fax" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="Remarks" Type="nvarchar" MaxLength="300" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="CreatedBy" Type="int" />
+    <Property Name="LastUpdatedDate" Type="datetime" />
+    <Property Name="LastUpdatedBy" Type="int" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="ClosingDate" Type="datetime" />
+    <Property Name="RegionName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ZoneName" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsRegionalOfficeActive" Type="bit" />
+    <Property Name="IsZonalOfficeActive" Type="bit" />
+    <Property Name="RegionalWebsite" Type="nvarchar" MaxLength="100" />
+    <Property Name="ZonalWebSite" Type="nvarchar" MaxLength="100" />
+    <Property Name="RegionalOfficeId" Type="int" />
+    <Property Name="ZonalOfficeId" Type="int" />
+    <Property Name="ClientId" Type="int" />
+    <Property Name="ContentType" Type="nvarchar" MaxLength="50" />
+    <Property Name="BranchTypeId" Type="int" />
+    <Property Name="BranchType" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'gbrs_01.dbo.vw_ClientList' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_ClientList">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="NoOfSchoolsPermitted" />
+      <PropertyRef Name="NoOfUsers" />
+      <PropertyRef Name="LastUpdated" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="AdminstratorId" Type="int" />
+    <Property Name="Lane" Type="nvarchar" MaxLength="50" />
+    <Property Name="Street" Type="nvarchar" MaxLength="50" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="Zip" Type="nvarchar" MaxLength="10" />
+    <Property Name="Phone1" Type="nvarchar" MaxLength="50" />
+    <Property Name="Phone2" Type="nvarchar" MaxLength="50" />
+    <Property Name="Cell" Type="nvarchar" MaxLength="20" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Website" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContractStartDate" Type="datetime" />
+    <Property Name="ContractEndDate" Type="datetime" />
+    <Property Name="NoOfSchoolsPermitted" Type="int" Nullable="false" />
+    <Property Name="NoOfUsers" Type="int" Nullable="false" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="LastUpdated" Type="datetime" Nullable="false" />
+    <Property Name="UpdatedBy" Type="uniqueidentifier" />
+    <Property Name="StateId" Type="int" />
+    <Property Name="StateName" Type="nvarchar" MaxLength="50" />
+    <Property Name="StateCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="CountryId" Type="int" />
+    <Property Name="CountryName" Type="varchar" MaxLength="50" />
+    <Property Name="CountryCode" Type="char" MaxLength="2" />
+    <Property Name="BusinessTypeId" Type="int" />
+    <Property Name="BusinessName" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'gbrs_01.dbo.vw_CollectionSummaryBranchWise' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_CollectionSummaryBranchWise">
+    <Key>
+      <PropertyRef Name="ClientId" />
+    </Key>
+    <Property Name="ClientId" Type="int" Nullable="false" />
+    <Property Name="BranchId" Type="int" />
+    <Property Name="BranchName" Type="nvarchar" MaxLength="100" />
+    <Property Name="CourseCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="PaymentDate" Type="datetime" />
+    <Property Name="collectedAmt" Type="money" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'gbrs_01.dbo.vw_CourseBrands' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_CourseBrands">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="BranchCode" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="BranchId" Type="int" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="BoardUniversityName" Type="nvarchar" MaxLength="100" />
+    <Property Name="RepresentativeName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Street1" Type="nvarchar" MaxLength="100" />
+    <Property Name="Street2" Type="nvarchar" MaxLength="100" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="StateId" Type="int" />
+    <Property Name="ZIP" Type="nvarchar" MaxLength="7" />
+    <Property Name="RegionalOfficeId" Type="int" />
+    <Property Name="ZonalOfficeId" Type="int" />
+    <Property Name="BranchCode" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="BranchName" Type="nvarchar" MaxLength="100" />
+    <Property Name="StateName" Type="nvarchar" MaxLength="50" />
+    <Property Name="CountryName" Type="varchar" MaxLength="50" />
+    <Property Name="ClientId" Type="int" />
+    <Property Name="IsBranchActive" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'gbrs_01.dbo.vw_Courses' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_Courses">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Name" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="CourseCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="CourseName" Type="nvarchar" MaxLength="100" />
+    <Property Name="Duration_In_Months" Type="int" />
+    <Property Name="FastTrackDuration" Type="decimal" Scale="2" />
+    <Property Name="CourseFees" Type="money" />
+    <Property Name="MinimumDownPayment" Type="money" />
+    <Property Name="MaximumDiscountAmount" Type="money" />
+    <Property Name="MaximumNumberOfInstallments" Type="int" />
+    <Property Name="InstallmentAmount" Type="money" />
+    <Property Name="TotalInstallmentAmount" Type="money" />
+    <Property Name="CourseBrandId" Type="int" />
+    <Property Name="CourseBrandName" Type="nvarchar" MaxLength="100" />
+    <Property Name="BoardUniversityName" Type="nvarchar" MaxLength="100" />
+    <Property Name="BranchId" Type="int" />
+    <Property Name="RegionalOfficeId" Type="int" />
+    <Property Name="ZonalOfficeId" Type="int" />
+    <Property Name="BranchName" Type="nvarchar" MaxLength="100" />
+    <Property Name="IsBranchActive" Type="bit" />
+    <Property Name="ClientId" Type="int" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'gbrs_01.dbo.vw_Employees' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_Employees">
+    <Key>
+      <PropertyRef Name="EmployeeId" />
+      <PropertyRef Name="FirstName" />
+      <PropertyRef Name="LastName" />
+      <PropertyRef Name="DOB" />
+      <PropertyRef Name="MaritalStatusName" />
+      <PropertyRef Name="Gender" />
+      <PropertyRef Name="RankName" />
+    </Key>
+    <Property Name="EmployeeId" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FirstName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="MiddleName" Type="nvarchar" MaxLength="50" />
+    <Property Name="LastName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DOB" Type="datetime" Nullable="false" />
+    <Property Name="MaritalStatusName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Gender" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="RankName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FatherName" Type="nvarchar" MaxLength="100" />
+    <Property Name="MotherName" Type="nvarchar" MaxLength="100" />
+    <Property Name="Street" Type="nvarchar" MaxLength="100" />
+    <Property Name="Street2" Type="nvarchar" MaxLength="100" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="State" Type="nvarchar" MaxLength="50" />
+    <Property Name="Country" Type="varchar" MaxLength="50" />
+    <Property Name="Zip" Type="nvarchar" MaxLength="50" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="15" />
+    <Property Name="Mobile" Type="nvarchar" MaxLength="15" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="LeavingDate" Type="datetime" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="LastUpdated" Type="datetime" />
+    <Property Name="PassportNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="PAN" Type="nvarchar" MaxLength="50" />
+    <Property Name="UIDNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="BranchCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="BranchName" Type="nvarchar" MaxLength="100" />
+    <Property Name="BranchId" Type="int" />
+    <Property Name="EmployeesRankId" Type="int" />
+    <Property Name="Qualification" Type="nvarchar" MaxLength="50" />
+    <Property Name="RegionName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ZoneName" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsRegionActive" Type="bit" />
+    <Property Name="IsZoneActive" Type="bit" />
+    <Property Name="RegionId" Type="int" />
+    <Property Name="ZoneId" Type="int" />
+    <Property Name="ClientId" Type="int" />
+    <Property Name="JoiningDate" Type="datetime" />
+    <Property Name="IsBranchActive" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'gbrs_01.dbo.vw_ExpenseHeads' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_ExpenseHeads">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="CODE" Type="nvarchar" MaxLength="3" />
+    <Property Name="NAME" Type="nvarchar" MaxLength="30" />
+    <Property Name="LedgerTypeId" Type="int" />
+    <Property Name="LedgerType" Type="nvarchar" MaxLength="30" />
+    <Property Name="OP_BAL" Type="float" />
+    <Property Name="ClientId" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'gbrs_01.dbo.vw_FeeCollections' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_FeeCollections">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="AdmissionId" />
+      <PropertyRef Name="BranchCode" />
+      <PropertyRef Name="PaymentHeadId" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="PaymentHead" Type="nvarchar" MaxLength="70" />
+    <Property Name="PaymentDate" Type="datetime" />
+    <Property Name="PaymentMode" Type="nvarchar" MaxLength="50" />
+    <Property Name="Amount" Type="money" />
+    <Property Name="Description" Type="nvarchar" MaxLength="300" />
+    <Property Name="ManualreceiptNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="AdmissionId" Type="int" Nullable="false" />
+    <Property Name="RollNumber" Type="int" />
+    <Property Name="CourseCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="CourseName" Type="nvarchar" MaxLength="100" />
+    <Property Name="AdmissionDate" Type="datetime" />
+    <Property Name="DownPayment" Type="money" />
+    <Property Name="NextPaymentDueDate" Type="datetime" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="RegistrationNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="BranchName" Type="nvarchar" MaxLength="100" />
+    <Property Name="BranchCode" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="BranchId" Type="int" />
+    <Property Name="RegionalOfficeId" Type="int" />
+    <Property Name="ZonalOfficeId" Type="int" />
+    <Property Name="RegionName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ZoneName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ClientId" Type="int" />
+    <Property Name="InstallmentStructureId" Type="int" />
+    <Property Name="InstallmentNo" Type="int" />
+    <Property Name="InstallmentAmount" Type="money" />
+    <Property Name="DueDate" Type="datetime" />
+    <Property Name="LateFine" Type="money" />
+    <Property Name="TotalReceived" Type="money" />
+    <Property Name="PaymentHeadId" Type="int" Nullable="false" />
+    <Property Name="PaymentModeId" Type="int" />
+    <Property Name="BranchTypeId" Type="int" />
+    <Property Name="BranchType" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsBranchActive" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'gbrs_01.dbo.vw_NewAdmissionSummaryBranchWise' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_NewAdmissionSummaryBranchWise">
+    <Key>
+      <PropertyRef Name="ClientId" />
+    </Key>
+    <Property Name="ClientId" Type="int" Nullable="false" />
+    <Property Name="BranchId" Type="int" />
+    <Property Name="BranchName" Type="nvarchar" MaxLength="100" />
+    <Property Name="CourseCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="AdmissionDate" Type="datetime" />
+    <Property Name="AdmCount" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'gbrs_01.dbo.vw_PaymentList' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_PaymentList">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="BranchId" />
+      <PropertyRef Name="Date" />
+      <PropertyRef Name="PaymentMode" />
+      <PropertyRef Name="Amounts" />
+      <PropertyRef Name="Remarks" />
+      <PropertyRef Name="ExpenseHeadId" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="BranchId" Type="int" Nullable="false" />
+    <Property Name="BranchName" Type="nvarchar" MaxLength="100" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="PaidTo" Type="nvarchar" MaxLength="100" />
+    <Property Name="PaymentMode" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ExpenseHeadCode" Type="nvarchar" MaxLength="3" />
+    <Property Name="ExpenseHeadName" Type="nvarchar" MaxLength="30" />
+    <Property Name="LedgerType" Type="nvarchar" MaxLength="30" />
+    <Property Name="Amounts" Type="money" Nullable="false" />
+    <Property Name="Narration" Type="nvarchar" MaxLength="300" />
+    <Property Name="LedgerTypeId" Type="int" />
+    <Property Name="VoucherNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="CHQ_NO" Type="nvarchar" MaxLength="50" />
+    <Property Name="CHQ_DATE" Type="datetime" />
+    <Property Name="BANK" Type="nvarchar" MaxLength="100" />
+    <Property Name="Remarks" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ClientId" Type="int" />
+    <Property Name="ExpenseHeadId" Type="int" Nullable="false" />
+    <Property Name="BranchTypeId" Type="int" />
+    <Property Name="IsBranchActive" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'gbrs_01.dbo.vw_RegionalOffices' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_RegionalOffices">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="ZonalOfficeId" Type="int" />
+    <Property Name="RegionName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Address" Type="nvarchar" MaxLength="100" />
+    <Property Name="Address2" Type="nvarchar" MaxLength="100" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="PIN" Type="nvarchar" MaxLength="7" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mobile" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="Fax" Type="nvarchar" MaxLength="50" />
+    <Property Name="Website" Type="nvarchar" MaxLength="100" />
+    <Property Name="Remarks" Type="nvarchar" MaxLength="300" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="LastUpdatedDate" Type="datetime" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="ClosingDate" Type="datetime" />
+    <Property Name="ZoneName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Expr1" Type="nvarchar" MaxLength="100" />
+    <Property Name="Expr2" Type="nvarchar" MaxLength="100" />
+    <Property Name="ClientId" Type="int" />
+    <Property Name="CountryId" Type="int" />
+    <Property Name="StateName" Type="nvarchar" MaxLength="50" />
+    <Property Name="StateId" Type="int" />
+    <Property Name="CountryName" Type="varchar" MaxLength="50" />
+    <Property Name="Expr3" Type="nvarchar" MaxLength="100" />
+    <Property Name="IsZoneActive" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'gbrs_01.dbo.vw_Student_Lists' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_Student_Lists">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="BranchCode" />
+      <PropertyRef Name="FirstName" />
+      <PropertyRef Name="Gender" />
+      <PropertyRef Name="MaritalStatusName" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="BranchCode" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="BranchName" Type="nvarchar" MaxLength="100" />
+    <Property Name="FirstName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="MiddleName" Type="nvarchar" MaxLength="50" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Gender" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DOB" Type="datetime" />
+    <Property Name="Age" Type="int" />
+    <Property Name="MaritalStatusName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FatherName" Type="nvarchar" MaxLength="100" />
+    <Property Name="MotherName" Type="nvarchar" MaxLength="100" />
+    <Property Name="Street" Type="nvarchar" MaxLength="100" />
+    <Property Name="Street2" Type="nvarchar" MaxLength="100" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="State" Type="nvarchar" MaxLength="50" />
+    <Property Name="Country" Type="varchar" MaxLength="50" />
+    <Property Name="Zip" Type="nvarchar" MaxLength="50" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="15" />
+    <Property Name="Cell" Type="nvarchar" MaxLength="15" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="LastUpdated" Type="datetime" />
+    <Property Name="BranchId" Type="int" />
+    <Property Name="IsBranchActive" Type="bit" />
+    <Property Name="Nationality" Type="nvarchar" MaxLength="50" />
+    <Property Name="LeavingDate" Type="datetime" />
+    <Property Name="ClientId" Type="int" />
+    <Property Name="Courses" Type="nvarchar(max)" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'gbrs_01.dbo.vw_Students' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_Students">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="BranchCode" />
+      <PropertyRef Name="FirstName" />
+      <PropertyRef Name="Gender" />
+      <PropertyRef Name="MaritalStatusName" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="BranchCode" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="BranchName" Type="nvarchar" MaxLength="100" />
+    <Property Name="FirstName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Gender" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DOB" Type="datetime" />
+    <Property Name="Age" Type="int" />
+    <Property Name="MaritalStatusName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FatherName" Type="nvarchar" MaxLength="100" />
+    <Property Name="MotherName" Type="nvarchar" MaxLength="100" />
+    <Property Name="Street" Type="nvarchar" MaxLength="100" />
+    <Property Name="Street2" Type="nvarchar" MaxLength="100" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="State" Type="nvarchar" MaxLength="50" />
+    <Property Name="Country" Type="varchar" MaxLength="50" />
+    <Property Name="Zip" Type="nvarchar" MaxLength="50" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="15" />
+    <Property Name="Cell" Type="nvarchar" MaxLength="15" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="LastUpdated" Type="datetime" />
+    <Property Name="Mothertoungue" Type="nvarchar" MaxLength="50" />
+    <Property Name="PassportNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="PAN" Type="nvarchar" MaxLength="50" />
+    <Property Name="UIDNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="Occupation" Type="nvarchar" MaxLength="100" />
+    <Property Name="IncomeSlot" Type="nvarchar" MaxLength="50" />
+    <Property Name="Qualification" Type="nvarchar" MaxLength="50" />
+    <Property Name="MiddleName" Type="nvarchar" MaxLength="50" />
+    <Property Name="BranchId" Type="int" />
+    <Property Name="Nationality" Type="nvarchar" MaxLength="50" />
+    <Property Name="Religion" Type="nvarchar" MaxLength="50" />
+    <Property Name="NationalityId" Type="int" />
+    <Property Name="ReligionId" Type="int" />
+    <Property Name="StateId" Type="int" />
+    <Property Name="CountryId" Type="int" />
+    <Property Name="RegionalOfficeId" Type="int" />
+    <Property Name="ZonalOfficeId" Type="int" />
+    <Property Name="LeavingDate" Type="datetime" />
+    <Property Name="ClientId" Type="int" />
+    <Property Name="OccupationId" Type="int" />
+    <Property Name="FamilyIncomeSlotId" Type="int" />
+    <Property Name="QualificationId" Type="int" />
+    <Property Name="IsBranchActive" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'gbrs_01.dbo.vw_Users_Lists' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_Users_Lists">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="UserName" />
+      <PropertyRef Name="LoweredUserName" />
+      <PropertyRef Name="IsAnonymous" />
+      <PropertyRef Name="LastActivityDate" />
+      <PropertyRef Name="ApplicationId" />
+      <PropertyRef Name="IsApproved" />
+      <PropertyRef Name="IsLockedOut" />
+      <PropertyRef Name="CreateDate" />
+      <PropertyRef Name="LastLoginDate" />
+      <PropertyRef Name="FailedPasswordAttemptCount" />
+      <PropertyRef Name="LastPasswordChangedDate" />
+      <PropertyRef Name="LastLockoutDate" />
+    </Key>
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="LoweredUserName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="MobileAlias" Type="nvarchar" MaxLength="16" />
+    <Property Name="IsAnonymous" Type="bit" Nullable="false" />
+    <Property Name="LastActivityDate" Type="datetime" Nullable="false" />
+    <Property Name="RoleId" Type="uniqueidentifier" />
+    <Property Name="RoleName" Type="nvarchar" MaxLength="256" />
+    <Property Name="LoweredRoleName" Type="nvarchar" MaxLength="256" />
+    <Property Name="Description" Type="nvarchar" MaxLength="256" />
+    <Property Name="EmployeeId" Type="nvarchar" MaxLength="50" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="50" />
+    <Property Name="MiddleName" Type="nvarchar" MaxLength="50" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="50" />
+    <Property Name="RankName" Type="nvarchar" MaxLength="50" />
+    <Property Name="BranchId" Type="int" />
+    <Property Name="BranchName" Type="nvarchar" MaxLength="100" />
+    <Property Name="RegionName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ZoneName" Type="nvarchar" MaxLength="50" />
+    <Property Name="RegionId" Type="int" />
+    <Property Name="ZoneId" Type="int" />
+    <Property Name="IsRegionActive" Type="bit" />
+    <Property Name="IsZoneActive" Type="bit" />
+    <Property Name="EmployeesRankId" Type="int" />
+    <Property Name="ApplicationId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="256" />
+    <Property Name="LoweredEmail" Type="nvarchar" MaxLength="256" />
+    <Property Name="IsApproved" Type="bit" Nullable="false" />
+    <Property Name="IsLockedOut" Type="bit" Nullable="false" />
+    <Property Name="CreateDate" Type="datetime" Nullable="false" />
+    <Property Name="LastLoginDate" Type="datetime" Nullable="false" />
+    <Property Name="FailedPasswordAttemptCount" Type="int" Nullable="false" />
+    <Property Name="LastPasswordChangedDate" Type="datetime" Nullable="false" />
+    <Property Name="LastLockoutDate" Type="datetime" Nullable="false" />
+    <Property Name="ClientId" Type="int" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Lane" Type="nvarchar" MaxLength="50" />
+    <Property Name="Street" Type="nvarchar" MaxLength="50" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="Zip" Type="nvarchar" MaxLength="10" />
+    <Property Name="ClientEmail" Type="nvarchar" MaxLength="50" />
+    <Property Name="Website" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContractStartDate" Type="datetime" />
+    <Property Name="ContractEndDate" Type="datetime" />
+    <Property Name="StateName" Type="nvarchar" MaxLength="50" />
+    <Property Name="CountryName" Type="varchar" MaxLength="50" />
+    <Property Name="Cell" Type="nvarchar" MaxLength="20" />
+    <Property Name="IsBranchActive" Type="bit" />
+    <Property Name="IsClientActive" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'gbrs_01.dbo.vw_ZonalOffices' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vw_ZonalOffices">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="ZoneName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Address" Type="nvarchar" MaxLength="100" />
+    <Property Name="Address2" Type="nvarchar" MaxLength="100" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="PIN" Type="nvarchar" MaxLength="7" />
+    <Property Name="State" Type="nvarchar" MaxLength="50" />
+    <Property Name="Country" Type="varchar" MaxLength="50" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mobile" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="Fax" Type="nvarchar" MaxLength="50" />
+    <Property Name="Website" Type="nvarchar" MaxLength="100" />
+    <Property Name="Remarks" Type="nvarchar" MaxLength="300" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="LastUpdatedDate" Type="datetime" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="ClosingDate" Type="datetime" />
+    <Property Name="ClientId" Type="int" />
+  </EntityType>
+  <Association Name="FK__aspnet_Me__Appli__10216507">
+    <End Role="aspnet_Applications" Type="VedantaModel.Store.aspnet_Applications" Multiplicity="1" />
+    <End Role="aspnet_Membership" Type="VedantaModel.Store.aspnet_Membership" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Membership">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Me__Appli__21B6055D">
+    <End Role="aspnet_Applications" Type="VedantaModel.Store.aspnet_Applications" Multiplicity="1" />
+    <End Role="aspnet_Membership" Type="VedantaModel.Store.aspnet_Membership" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Membership">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Me__UserI__11158940">
+    <End Role="aspnet_Users" Type="VedantaModel.Store.aspnet_Users" Multiplicity="1" />
+    <End Role="aspnet_Membership" Type="VedantaModel.Store.aspnet_Membership" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_Membership">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Me__UserI__22AA2996">
+    <End Role="aspnet_Users" Type="VedantaModel.Store.aspnet_Users" Multiplicity="1" />
+    <End Role="aspnet_Membership" Type="VedantaModel.Store.aspnet_Membership" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_Membership">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pa__Appli__0B5CAFEA">
+    <End Role="aspnet_Applications" Type="VedantaModel.Store.aspnet_Applications" Multiplicity="1" />
+    <End Role="aspnet_Paths" Type="VedantaModel.Store.aspnet_Paths" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Paths">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pa__Appli__5AEE82B9">
+    <End Role="aspnet_Applications" Type="VedantaModel.Store.aspnet_Applications" Multiplicity="1" />
+    <End Role="aspnet_Paths" Type="VedantaModel.Store.aspnet_Paths" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Paths">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pe__PathI__0D44F85C">
+    <End Role="aspnet_Paths" Type="VedantaModel.Store.aspnet_Paths" Multiplicity="0..1" />
+    <End Role="aspnet_PersonalizationPerUser" Type="VedantaModel.Store.aspnet_PersonalizationPerUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Paths">
+        <PropertyRef Name="PathId" />
+      </Principal>
+      <Dependent Role="aspnet_PersonalizationPerUser">
+        <PropertyRef Name="PathId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pe__PathI__1209AD79">
+    <End Role="aspnet_Paths" Type="VedantaModel.Store.aspnet_Paths" Multiplicity="1" />
+    <End Role="aspnet_PersonalizationAllUsers" Type="VedantaModel.Store.aspnet_PersonalizationAllUsers" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Paths">
+        <PropertyRef Name="PathId" />
+      </Principal>
+      <Dependent Role="aspnet_PersonalizationAllUsers">
+        <PropertyRef Name="PathId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pe__PathI__628FA481">
+    <End Role="aspnet_Paths" Type="VedantaModel.Store.aspnet_Paths" Multiplicity="1" />
+    <End Role="aspnet_PersonalizationAllUsers" Type="VedantaModel.Store.aspnet_PersonalizationAllUsers" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Paths">
+        <PropertyRef Name="PathId" />
+      </Principal>
+      <Dependent Role="aspnet_PersonalizationAllUsers">
+        <PropertyRef Name="PathId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pe__PathI__68487DD7">
+    <End Role="aspnet_Paths" Type="VedantaModel.Store.aspnet_Paths" Multiplicity="0..1" />
+    <End Role="aspnet_PersonalizationPerUser" Type="VedantaModel.Store.aspnet_PersonalizationPerUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Paths">
+        <PropertyRef Name="PathId" />
+      </Principal>
+      <Dependent Role="aspnet_PersonalizationPerUser">
+        <PropertyRef Name="PathId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pe__UserI__0E391C95">
+    <End Role="aspnet_Users" Type="VedantaModel.Store.aspnet_Users" Multiplicity="0..1" />
+    <End Role="aspnet_PersonalizationPerUser" Type="VedantaModel.Store.aspnet_PersonalizationPerUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_PersonalizationPerUser">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pe__UserI__693CA210">
+    <End Role="aspnet_Users" Type="VedantaModel.Store.aspnet_Users" Multiplicity="0..1" />
+    <End Role="aspnet_PersonalizationPerUser" Type="VedantaModel.Store.aspnet_PersonalizationPerUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_PersonalizationPerUser">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pr__UserI__0F2D40CE">
+    <End Role="aspnet_Users" Type="VedantaModel.Store.aspnet_Users" Multiplicity="1" />
+    <End Role="aspnet_Profile" Type="VedantaModel.Store.aspnet_Profile" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_Profile">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pr__UserI__38996AB5">
+    <End Role="aspnet_Users" Type="VedantaModel.Store.aspnet_Users" Multiplicity="1" />
+    <End Role="aspnet_Profile" Type="VedantaModel.Store.aspnet_Profile" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_Profile">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Ro__Appli__0C50D423">
+    <End Role="aspnet_Applications" Type="VedantaModel.Store.aspnet_Applications" Multiplicity="1" />
+    <End Role="aspnet_Roles" Type="VedantaModel.Store.aspnet_Roles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Roles">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Ro__Appli__440B1D61">
+    <End Role="aspnet_Applications" Type="VedantaModel.Store.aspnet_Applications" Multiplicity="1" />
+    <End Role="aspnet_Roles" Type="VedantaModel.Store.aspnet_Roles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Roles">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Us__Appli__0A688BB1">
+    <End Role="aspnet_Applications" Type="VedantaModel.Store.aspnet_Applications" Multiplicity="1" />
+    <End Role="aspnet_Users" Type="VedantaModel.Store.aspnet_Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Users">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Us__Appli__0DAF0CB0">
+    <End Role="aspnet_Applications" Type="VedantaModel.Store.aspnet_Applications" Multiplicity="1" />
+    <End Role="aspnet_Users" Type="VedantaModel.Store.aspnet_Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Users">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Us__RoleI__12FDD1B2">
+    <End Role="aspnet_Roles" Type="VedantaModel.Store.aspnet_Roles" Multiplicity="1" />
+    <End Role="aspnet_UsersInRoles" Type="VedantaModel.Store.aspnet_UsersInRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Roles">
+        <PropertyRef Name="RoleId" />
+      </Principal>
+      <Dependent Role="aspnet_UsersInRoles">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Us__RoleI__4AB81AF0">
+    <End Role="aspnet_Roles" Type="VedantaModel.Store.aspnet_Roles" Multiplicity="1" />
+    <End Role="aspnet_UsersInRoles" Type="VedantaModel.Store.aspnet_UsersInRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Roles">
+        <PropertyRef Name="RoleId" />
+      </Principal>
+      <Dependent Role="aspnet_UsersInRoles">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Us__UserI__13F1F5EB">
+    <End Role="aspnet_Users" Type="VedantaModel.Store.aspnet_Users" Multiplicity="1" />
+    <End Role="aspnet_UsersInRoles" Type="VedantaModel.Store.aspnet_UsersInRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_UsersInRoles">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Us__UserI__49C3F6B7">
+    <End Role="aspnet_Users" Type="VedantaModel.Store.aspnet_Users" Multiplicity="1" />
+    <End Role="aspnet_UsersInRoles" Type="VedantaModel.Store.aspnet_UsersInRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_UsersInRoles">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="aspnet_AnyDataInTables" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TablesToCheck" Type="int" Mode="In" />
+  </Function>
+  <Function Name="aspnet_Applications_CreateApplication" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="ApplicationId" Type="uniqueidentifier" Mode="InOut" />
+  </Function>
+  <Function Name="aspnet_CheckSchemaVersion" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Feature" Type="nvarchar" Mode="In" />
+    <Parameter Name="CompatibleSchemaVersion" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="aspnet_Membership_ChangePasswordQuestionAndAnswer" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="UserName" Type="nvarchar" Mode="In" />
+    <Parameter Name="NewPasswordQuestion" Type="nvarchar" Mode="In" />
+    <Parameter Name="NewPasswordAnswer" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="aspnet_Membership_CreateUser" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="UserName" Type="nvarchar" Mode="In" />
+    <Parameter Name="Password" Type="nvarchar" Mode="In" />
+    <Parameter Name="PasswordSalt" Type="nvarchar" Mode="In" />
+    <Parameter Name="Email" Type="nvarchar" Mode="In" />
+    <Parameter Name="PasswordQuestion" Type="nvarchar" Mode="In" />
+    <Parameter Name="PasswordAnswer" Type="nvarchar" Mode="In" />
+    <Parameter Name="IsApproved" Type="bit" Mode="In" />
+    <Parameter Name="CurrentTimeUtc" Type="datetime" Mode="In" />
+    <Parameter Name="CreateDate" Type="datetime" Mode="In" />
+    <Parameter Name="UniqueEmail" Type="int" Mode="In" />
+    <Parameter Name="PasswordFormat" Type="int" Mode="In" />
+    <Parameter Name="UserId" Type="uniqueidentifier" Mode="InOut" />
+  </Function>
+  <Function Name="aspnet_Membership_FindUsersByEmail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="EmailToMatch" Type="nvarchar" Mode="In" />
+    <Parameter Name="PageIndex" Type="int" Mode="In" />
+    <Parameter Name="PageSize" Type="int" Mode="In" />
+  </Function>
+  <Function Name="aspnet_Membership_FindUsersByName" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="UserNameToMatch" Type="nvarchar" Mode="In" />
+    <Parameter Name="PageIndex" Type="int" Mode="In" />
+    <Parameter Name="PageSize" Type="int" Mode="In" />
+  </Function>
+  <Function Name="aspnet_Membership_GetAllUsers" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="PageIndex" Type="int" Mode="In" />
+    <Parameter Name="PageSize" Type="int" Mode="In" />
+  </Function>
+  <Function Name="aspnet_Membership_GetNumberOfUsersOnline" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="MinutesSinceLastInActive" Type="int" Mode="In" />
+    <Parameter Name="CurrentTimeUtc" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="aspnet_Membership_GetPassword" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="UserName" Type="nvarchar" Mode="In" />
+    <Parameter Name="MaxInvalidPasswordAttempts" Type="int" Mode="In" />
+    <Parameter Name="PasswordAttemptWindow" Type="int" Mode="In" />
+    <Parameter Name="CurrentTimeUtc" Type="datetime" Mode="In" />
+    <Parameter Name="PasswordAnswer" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="aspnet_Membership_GetPasswordWithFormat" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="UserName" Type="nvarchar" Mode="In" />
+    <Parameter Name="UpdateLastLoginActivityDate" Type="bit" Mode="In" />
+    <Parameter Name="CurrentTimeUtc" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="aspnet_Membership_GetUserByEmail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="Email" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="aspnet_Membership_GetUserByName" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="UserName" Type="nvarchar" Mode="In" />
+    <Parameter Name="CurrentTimeUtc" Type="datetime" Mode="In" />
+    <Parameter Name="UpdateLastActivity" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="aspnet_Membership_GetUserByUserId" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="CurrentTimeUtc" Type="datetime" Mode="In" />
+    <Parameter Name="UpdateLastActivity" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="aspnet_Membership_ResetPassword" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="UserName" Type="nvarchar" Mode="In" />
+    <Parameter Name="NewPassword" Type="nvarchar" Mode="In" />
+    <Parameter Name="MaxInvalidPasswordAttempts" Type="int" Mode="In" />
+    <Parameter Name="PasswordAttemptWindow" Type="int" Mode="In" />
+    <Parameter Name="PasswordSalt" Type="nvarchar" Mode="In" />
+    <Parameter Name="CurrentTimeUtc" Type="datetime" Mode="In" />
+    <Parameter Name="PasswordFormat" Type="int" Mode="In" />
+    <Parameter Name="PasswordAnswer" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="aspnet_Membership_SetPassword" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="UserName" Type="nvarchar" Mode="In" />
+    <Parameter Name="NewPassword" Type="nvarchar" Mode="In" />
+    <Parameter Name="PasswordSalt" Type="nvarchar" Mode="In" />
+    <Parameter Name="CurrentTimeUtc" Type="datetime" Mode="In" />
+    <Parameter Name="PasswordFormat" Type="int" Mode="In" />
+  </Function>
+  <Function Name="aspnet_Membership_UnlockUser" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="UserName" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="aspnet_Membership_UpdateUser" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="UserName" Type="nvarchar" Mode="In" />
+    <Parameter Name="Email" Type="nvarchar" Mode="In" />
+    <Parameter Name="Comment" Type="ntext" Mode="In" />
+    <Parameter Name="IsApproved" Type="bit" Mode="In" />
+    <Parameter Name="LastLoginDate" Type="datetime" Mode="In" />
+    <Parameter Name="LastActivityDate" Type="datetime" Mode="In" />
+    <Parameter Name="UniqueEmail" Type="int" Mode="In" />
+    <Parameter Name="CurrentTimeUtc" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="aspnet_Membership_UpdateUserInfo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="UserName" Type="nvarchar" Mode="In" />
+    <Parameter Name="IsPasswordCorrect" Type="bit" Mode="In" />
+    <Parameter Name="UpdateLastLoginActivityDate" Type="bit" Mode="In" />
+    <Parameter Name="MaxInvalidPasswordAttempts" Type="int" Mode="In" />
+    <Parameter Name="PasswordAttemptWindow" Type="int" Mode="In" />
+    <Parameter Name="CurrentTimeUtc" Type="datetime" Mode="In" />
+    <Parameter Name="LastLoginDate" Type="datetime" Mode="In" />
+    <Parameter Name="LastActivityDate" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="aspnet_Paths_CreatePath" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationId" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="Path" Type="nvarchar" Mode="In" />
+    <Parameter Name="PathId" Type="uniqueidentifier" Mode="InOut" />
+  </Function>
+  <Function Name="aspnet_Personalization_GetApplicationId" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="ApplicationId" Type="uniqueidentifier" Mode="InOut" />
+  </Function>
+  <Function Name="aspnet_PersonalizationAdministration_DeleteAllState" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="AllUsersScope" Type="bit" Mode="In" />
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="Count" Type="int" Mode="InOut" />
+  </Function>
+  <Function Name="aspnet_PersonalizationAdministration_FindState" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="AllUsersScope" Type="bit" Mode="In" />
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="PageIndex" Type="int" Mode="In" />
+    <Parameter Name="PageSize" Type="int" Mode="In" />
+    <Parameter Name="Path" Type="nvarchar" Mode="In" />
+    <Parameter Name="UserName" Type="nvarchar" Mode="In" />
+    <Parameter Name="InactiveSinceDate" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="aspnet_PersonalizationAdministration_GetCountOfState" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Count" Type="int" Mode="InOut" />
+    <Parameter Name="AllUsersScope" Type="bit" Mode="In" />
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="Path" Type="nvarchar" Mode="In" />
+    <Parameter Name="UserName" Type="nvarchar" Mode="In" />
+    <Parameter Name="InactiveSinceDate" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="aspnet_PersonalizationAdministration_ResetSharedState" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Count" Type="int" Mode="InOut" />
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="Path" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="aspnet_PersonalizationAdministration_ResetUserState" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Count" Type="int" Mode="InOut" />
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="InactiveSinceDate" Type="datetime" Mode="In" />
+    <Parameter Name="UserName" Type="nvarchar" Mode="In" />
+    <Parameter Name="Path" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="aspnet_PersonalizationAllUsers_GetPageSettings" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="Path" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="aspnet_PersonalizationAllUsers_ResetPageSettings" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="Path" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="aspnet_PersonalizationAllUsers_SetPageSettings" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="Path" Type="nvarchar" Mode="In" />
+    <Parameter Name="PageSettings" Type="image" Mode="In" />
+    <Parameter Name="CurrentTimeUtc" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="aspnet_PersonalizationPerUser_GetPageSettings" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="UserName" Type="nvarchar" Mode="In" />
+    <Parameter Name="Path" Type="nvarchar" Mode="In" />
+    <Parameter Name="CurrentTimeUtc" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="aspnet_PersonalizationPerUser_ResetPageSettings" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="UserName" Type="nvarchar" Mode="In" />
+    <Parameter Name="Path" Type="nvarchar" Mode="In" />
+    <Parameter Name="CurrentTimeUtc" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="aspnet_PersonalizationPerUser_SetPageSettings" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="UserName" Type="nvarchar" Mode="In" />
+    <Parameter Name="Path" Type="nvarchar" Mode="In" />
+    <Parameter Name="PageSettings" Type="image" Mode="In" />
+    <Parameter Name="CurrentTimeUtc" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="aspnet_Profile_DeleteInactiveProfiles" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="ProfileAuthOptions" Type="int" Mode="In" />
+    <Parameter Name="InactiveSinceDate" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="aspnet_Profile_DeleteProfiles" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="UserNames" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="aspnet_Profile_GetNumberOfInactiveProfiles" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="ProfileAuthOptions" Type="int" Mode="In" />
+    <Parameter Name="InactiveSinceDate" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="aspnet_Profile_GetProfiles" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="ProfileAuthOptions" Type="int" Mode="In" />
+    <Parameter Name="PageIndex" Type="int" Mode="In" />
+    <Parameter Name="PageSize" Type="int" Mode="In" />
+    <Parameter Name="UserNameToMatch" Type="nvarchar" Mode="In" />
+    <Parameter Name="InactiveSinceDate" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="aspnet_Profile_GetProperties" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="UserName" Type="nvarchar" Mode="In" />
+    <Parameter Name="CurrentTimeUtc" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="aspnet_Profile_SetProperties" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="PropertyNames" Type="ntext" Mode="In" />
+    <Parameter Name="PropertyValuesString" Type="ntext" Mode="In" />
+    <Parameter Name="PropertyValuesBinary" Type="image" Mode="In" />
+    <Parameter Name="UserName" Type="nvarchar" Mode="In" />
+    <Parameter Name="IsUserAnonymous" Type="bit" Mode="In" />
+    <Parameter Name="CurrentTimeUtc" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="aspnet_RegisterSchemaVersion" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Feature" Type="nvarchar" Mode="In" />
+    <Parameter Name="CompatibleSchemaVersion" Type="nvarchar" Mode="In" />
+    <Parameter Name="IsCurrentVersion" Type="bit" Mode="In" />
+    <Parameter Name="RemoveIncompatibleSchema" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="aspnet_Roles_CreateRole" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="RoleName" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="aspnet_Roles_DeleteRole" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="RoleName" Type="nvarchar" Mode="In" />
+    <Parameter Name="DeleteOnlyIfRoleIsEmpty" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="aspnet_Roles_GetAllRoles" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="aspnet_Roles_RoleExists" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="RoleName" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="aspnet_Setup_RemoveAllRoleMembers" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="name" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="aspnet_Setup_RestorePermissions" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="name" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="aspnet_UnRegisterSchemaVersion" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Feature" Type="nvarchar" Mode="In" />
+    <Parameter Name="CompatibleSchemaVersion" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="aspnet_Users_CreateUser" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationId" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="UserName" Type="nvarchar" Mode="In" />
+    <Parameter Name="IsUserAnonymous" Type="bit" Mode="In" />
+    <Parameter Name="LastActivityDate" Type="datetime" Mode="In" />
+    <Parameter Name="UserId" Type="uniqueidentifier" Mode="InOut" />
+  </Function>
+  <Function Name="aspnet_Users_DeleteUser" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="UserName" Type="nvarchar" Mode="In" />
+    <Parameter Name="TablesToDeleteFrom" Type="int" Mode="In" />
+    <Parameter Name="NumTablesDeletedFrom" Type="int" Mode="InOut" />
+  </Function>
+  <Function Name="aspnet_UsersInRoles_AddUsersToRoles" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="UserNames" Type="nvarchar" Mode="In" />
+    <Parameter Name="RoleNames" Type="nvarchar" Mode="In" />
+    <Parameter Name="CurrentTimeUtc" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="aspnet_UsersInRoles_FindUsersInRole" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="RoleName" Type="nvarchar" Mode="In" />
+    <Parameter Name="UserNameToMatch" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="aspnet_UsersInRoles_GetRolesForUser" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="UserName" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="aspnet_UsersInRoles_GetUsersInRoles" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="RoleName" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="aspnet_UsersInRoles_IsUserInRole" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="UserName" Type="nvarchar" Mode="In" />
+    <Parameter Name="RoleName" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="aspnet_UsersInRoles_RemoveUsersFromRoles" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ApplicationName" Type="nvarchar" Mode="In" />
+    <Parameter Name="UserNames" Type="nvarchar" Mode="In" />
+    <Parameter Name="RoleNames" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="aspnet_WebEvent_LogEvent" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EventId" Type="char" Mode="In" />
+    <Parameter Name="EventTimeUtc" Type="datetime" Mode="In" />
+    <Parameter Name="EventTime" Type="datetime" Mode="In" />
+    <Parameter Name="EventType" Type="nvarchar" Mode="In" />
+    <Parameter Name="EventSequence" Type="decimal" Mode="In" />
+    <Parameter Name="EventOccurrence" Type="decimal" Mode="In" />
+    <Parameter Name="EventCode" Type="int" Mode="In" />
+    <Parameter Name="EventDetailCode" Type="int" Mode="In" />
+    <Parameter Name="Message" Type="nvarchar" Mode="In" />
+    <Parameter Name="ApplicationPath" Type="nvarchar" Mode="In" />
+    <Parameter Name="ApplicationVirtualPath" Type="nvarchar" Mode="In" />
+    <Parameter Name="MachineName" Type="nvarchar" Mode="In" />
+    <Parameter Name="RequestUrl" Type="nvarchar" Mode="In" />
+    <Parameter Name="ExceptionType" Type="nvarchar" Mode="In" />
+    <Parameter Name="Details" Type="ntext" Mode="In" />
+  </Function>
+</Schema>

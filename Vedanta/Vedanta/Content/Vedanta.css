@@ -1,0 +1,313 @@
+﻿body
+{
+    min-width: 950px;
+    width: auto;
+    background: rgb(246,230,180); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(246,230,180,1) 0%, rgba(237,144,23,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(246,230,180,1)), color-stop(100%,rgba(237,144,23,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(246,230,180,1) 0%,rgba(237,144,23,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(246,230,180,1) 0%,rgba(237,144,23,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(246,230,180,1) 0%,rgba(237,144,23,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(246,230,180,1) 0%,rgba(237,144,23,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6e6b4', endColorstr='#ed9017',GradientType=0 ); /* IE6-9 */
+}
+.header-title
+{
+    color: Maroon;
+    font-size: 2.0em;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+ul#menu li a
+{
+    color: Maroon;
+}
+#footer
+{
+    color: #c3c3c3;
+    bottom: 0;
+    text-align: left;
+}
+#PageHolder
+{
+    min-height: 380px;
+    min-height: 380px;
+    height: auto;
+    text-align: left;
+    vertical-align: top;
+    background-color: white;
+}
+#title
+{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+#menucontainer
+{
+    margin-top: 20px;
+}
+
+#Mainpg
+{
+    background-color: #e6f5ff;
+    border: 1px solid #b8bbbb;
+    height: auto;
+    width: 98% !important;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+    clear: both;
+    -webkit-box-shadow: 5px 7px 9px rgba(50, 50, 48, 0.45);
+    -moz-box-shadow: 5px 7px 9px rgba(50, 50, 48, 0.45);
+    box-shadow: 5px 7px 9px rgba(50, 50, 48, 0.45);
+    overflow: hidden;
+    min-height: 300px;
+}
+.pageTitle
+{
+    height: 50px;
+    text-align: left;
+    width: 100%;
+    vertical-align: top;
+    padding-top: 2px;
+}
+.pageLink
+{
+    width: 20%;
+    height: 95%;
+    min-width: 100px;
+    text-align: right;
+    float: right;
+    padding-right: 5px;
+}
+.pageHeader
+{
+    width: 20%;
+    height: 100%;
+    min-width: 200px;
+    float: left;
+}
+.address
+{
+    width: 85%;
+    min-width: 500px;
+}
+
+.mainTable
+{
+    width: 98% !important;
+    max-width: 98% !important;
+    border: 0px solid #e6f5ff !important;
+}
+.required
+{
+    padding-left: 3px;
+    color: Red;
+}
+#StateId, #CountryId, #RegionId, #ZoneId
+{
+    min-width: 235px;
+}
+#roleId
+{
+    min-width: 200px;
+}
+/*
+select
+{
+    min-width: 200px;
+} */
+td
+{
+    vertical-align: top;
+}
+
+.NoRecordFound
+{
+    height: 25px;
+    color: #752201;
+    vertical-align: middle;
+    padding: 5px;
+    background: #ffff88; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffff88 0%, #ffff88 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffff88), color-stop(100%,#ffff88)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffff88 0%,#ffff88 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffff88 0%,#ffff88 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffff88 0%,#ffff88 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffff88 0%,#ffff88 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff88', endColorstr='#ffff88',GradientType=0 ); /* IE6-9 */
+}
+.GridView
+{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    color: #752201;
+}
+
+.GridView th
+{
+    color: #fff;
+    font-weight: bold;
+    background: #f0b7a1; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f0b7a1 0%, #752201 74%, #bf6e4e 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f0b7a1), color-stop(74%,#752201), color-stop(100%,#bf6e4e)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f0b7a1 0%,#752201 74%,#bf6e4e 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f0b7a1 0%,#752201 74%,#bf6e4e 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #f0b7a1 0%,#752201 74%,#bf6e4e 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #f0b7a1 0%,#752201 74%,#bf6e4e 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=0 ); /* IE6-9 */
+}
+
+.GridView tr:hover
+{
+    background-color: #cdcbcb;
+}
+
+.datepicker
+{
+    background-position: 140px center;
+    width: 150px !important;
+    background-image: url('../images/calendar-icon.png');
+    background-repeat: no-repeat;
+    border: 1px solid #c3c3c3;
+}
+
+.ui-datepicker select
+{
+    padding: 0px;
+}
+
+.pageLink a img
+{
+    border: none;
+}
+
+.submit, #submit, #next
+{
+    color: white;
+    font-weight: bold;
+    border: none;
+    height: 45px;
+    width: 200px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    background: #f0b7a1; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f0b7a1 0%, #752201 74%, #bf6e4e 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f0b7a1), color-stop(74%,#752201), color-stop(100%,#bf6e4e)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f0b7a1 0%,#752201 74%,#bf6e4e 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f0b7a1 0%,#752201 74%,#bf6e4e 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #f0b7a1 0%,#752201 74%,#bf6e4e 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #f0b7a1 0%,#752201 74%,#bf6e4e 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=0 ); /* IE6-9 */
+    margin-top: 5px;
+}
+
+.btnSearch
+{
+    color: white;
+    font-weight: bold;
+    border: none;
+    height: 35px;
+    width: 150px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    background: #f0b7a1; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f0b7a1 0%, #752201 74%, #bf6e4e 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f0b7a1), color-stop(74%,#752201), color-stop(100%,#bf6e4e)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f0b7a1 0%,#752201 74%,#bf6e4e 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f0b7a1 0%,#752201 74%,#bf6e4e 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #f0b7a1 0%,#752201 74%,#bf6e4e 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #f0b7a1 0%,#752201 74%,#bf6e4e 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=0 ); /* IE6-9 */
+    margin-top: 5px;
+}
+input
+{
+    height: 20px;
+    padding-right: 5px;
+}
+.blankCell
+{
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #752201;
+}
+
+.blankCell legend
+{
+    color: Maroon;
+    font-size: 1.2em;
+}
+.divMessage
+{
+    width: 98%;
+    background-color: Gray;
+    color: Yellow;
+    padding: 5px;
+}
+
+#btnExport
+{
+    background: none;
+    background-image: url("../images/export.png");
+    background-repeat: no-repeat;
+    height: 32px;
+    width: 32px;
+    border: none;
+    float: right;
+}
+#divSearchReoprt
+{
+    float: left;
+    height: 180px;
+    min-width: 410px;
+    text-align: right;
+}
+#wrapperReport
+{
+    background-color: #fff;
+    border: 1px solid rgb(195, 195, 195);
+    width: 410px;
+    height: 95%;
+    float: right;
+    text-align: left;
+    border-radius: 5px;
+    vertical-align: top;
+    padding: 5px 0 0 2px;
+}
+
+#tbleReportSearch
+{
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.DetailView
+{
+    width: 100%;
+}
+.DetailHeaderColumn
+{
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+.printer
+{
+    cursor: pointer;
+}
+
+.noscreen
+{
+    display: none;
+}
